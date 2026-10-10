@@ -1,26 +1,35 @@
-101¦La Cella Sonnolenta¦La Celda Adormilada
-102¦Scolpito nella pietra: "Bentornato, esploratore. L'enorme caveau è la via d'uscita."¦Grabado en la piedra: "Bienvenido de nuevo, explorador. La enorme cámara acorazada es la salida."
-103¦La Sala del Caveau¦La Sala de la Cámara Acorazada
-104¦Scolpito nella pietra: "Ogni sala attorno al caveau custodisce un numero segreto. Portali tutti al caveau."¦Grabado en la piedra: "Cada sala alrededor de la cámara acorazada guarda un número secreto. Llévalos todos a la cámara."
-105¦La Sala delle Lanterne¦La Sala de las Linternas
-106¦La Sala dell'Eco¦La Sala del Eco
-107¦Scolpito nella pietra: "Suona le campane dalla più grande alla più piccola."¦Grabado en la piedra: "Toca las campanas de la más grande a la más pequeña."
-108¦Scolpito nella pietra: "Suona le campane dalla più piccola alla più grande."¦Grabado en la piedra: "Toca las campanas de la más pequeña a la más grande."
-123¦Inizia la seconda parte¦Empieza la segunda parte
-128¦Svegliati nella seconda parte¦Despierta en la segunda parte
-163¦La lanterna è già accesa.¦La linterna ya está encendida.
-164¦Ti serve una fiamma per accenderla.¦Necesitas una llama para encenderla.
-165¦La terza lanterna si accende con un guizzo. Sul muro compare un numero luminoso!¦¡La tercera linterna se enciende de golpe! En la pared aparece un número luminoso.
-166¦La lanterna brilla calda.¦La linterna brilla cálida.
-167¦La campana suona piano.¦La campana suena suavemente.
-168¦L'ultima campana risuona. Sul muro compare un numero luminoso!¦La última campana resuena. ¡En la pared aparece un número luminoso!
-169¦Clang! Le campane tacciono. Nessun problema, ricomincia.¦¡Clang! Las campanas callan. No pasa nada, empieza de nuevo.
-200¦Ti svegli sulla pietra fredda in un'altra parte del tempio. La testa è un po' confusa, ma stai bene.¦Despiertas sobre la piedra fría en otra parte del templo. Tienes la cabeza algo confusa, pero estás bien.
-201¦L'enorme caveau¦La enorme cámara acorazada
-202¦Imposta ogni quadrante sul numero della sua sala. Se hai già visto un numero, è scritto qui per te.¦Pon cada dial en el número de su sala. Si ya has visto un número, está escrito aquí para ti.
-204¦Hai visto il numero ¦Has visto el número 
-205¦Seconda parte¦Segunda parte
-206¦Il caveau si apre!¦¡La cámara acorazada se abre!
-207¦Ogni quadrante scatta al suo posto. CLUNK! L'enorme porta del caveau si spalanca e la luce del sole entra a fiotti. Sei scappato dalla seconda parte!¦Cada dial encaja en su sitio. ¡CLUNK! La enorme puerta de la cámara se abre de par en par y la luz del sol entra a raudales. ¡Has escapado de la segunda parte!
-217¦Codici ¦Códigos 
-218¦ su 10¦ de 10
+101¦Scolpito nella pietra: "Gira ogni statua verso nord."¦Grabado en la piedra: "Gira cada estatua hacia el norte."
+102¦Scolpito nella pietra: "Gira ogni statua verso est."¦Grabado en la piedra: "Gira cada estatua hacia el este."
+103¦Scolpito nella pietra: "Gira ogni statua verso sud."¦Grabado en la piedra: "Gira cada estatua hacia el sur."
+104¦Scolpito nella pietra: "Gira ogni statua verso ovest."¦Grabado en la piedra: "Gira cada estatua hacia el oeste."
+105¦Scolpito nella pietra: "Il numero si nasconde dietro il libro rosso."¦Grabado en la piedra: "El número se esconde tras el libro rojo."
+106¦Scolpito nella pietra: "Il numero si nasconde dietro il libro blu."¦Grabado en la piedra: "El número se esconde tras el libro azul."
+107¦Scolpito nella pietra: "Il numero si nasconde dietro il libro verde."¦Grabado en la piedra: "El número se esconde tras el libro verde."
+108¦Scolpito nella pietra: "Il numero si nasconde dietro il libro viola."¦Grabado en la piedra: "El número se esconde tras el libro morado."
+109¦Scolpito nella pietra: "Il numero si nasconde dietro il libro giallo."¦Grabado en la piedra: "El número se esconde tras el libro amarillo."
+113¦Scolpito nella pietra: "Dieci sale circondano il caveau. Ognuna custodisce un numero segreto. Portali tutti al caveau."¦Grabado en la piedra: "Diez salas rodean la cámara acorazada. Cada una guarda un número secreto. Llévalos todos a la cámara."
+118¦Il Giardino delle Statue¦El Jardín de las Estatuas
+119¦La Sala della Notte¦La Sala de la Noche
+120¦La Sala della Sabbia¦La Sala de la Arena
+121¦Scolpito nella pietra: "Scava nella ¦Grabado en la piedra: "Cava en la 
+122¦ pila da sinistra."¦ pila desde la izquierda."
+123¦La Sala dei Numeri¦La Sala de los Números
+124¦Scolpito nella pietra: "Imposta il quadrante sul numero di stelle sul muro."¦Grabado en la piedra: "Pon el dial en el número de estrellas de la pared."
+125¦La Sala dei Colori¦La Sala de los Colores
+126¦Scolpito nella pietra: "Calpesta le piastre colorate nell'ordine mostrato sul muro."¦Grabado en la piedra: "Pisa las placas de colores en el orden que muestra la pared."
+127¦La Sala Buia¦La Sala Oscura
+128¦Qui è buio pesto. Qualcosa brilla piano, da qualche parte.¦Aquí está muy oscuro. Algo brilla suavemente, en algún lugar.
+129¦La Sala dello Scivolo¦La Sala del Resbalón
+130¦La Biblioteca Nascosta¦La Biblioteca Oculta
+185¦Cinque lampade sono dipinte sul muro. Accendi le lampade qui sotto per farle uguali.¦Cinco lámparas están pintadas en la pared. Enciende las lámparas de abajo para que sean iguales.
+186¦Hai già scavato qui.¦Ya has cavado aquí.
+187¦Sotto la sabbia trovi una pietra luminosa!¦¡Bajo la arena encuentras una piedra luminosa!
+188¦Solo sabbia.¦Solo arena.
+189¦La piastra vibra piano.¦La placa vibra suavemente.
+190¦Bzzt! Non è questa. Nessun problema, ricomincia dal primo colore.¦¡Bzzt! Esa no es. No pasa nada, empieza de nuevo desde el primer color.
+191¦Dietro il libro c'è una pietra luminosa!¦¡Detrás del libro hay una piedra luminosa!
+192¦Solo polvere e vecchie pagine.¦Solo polvo y páginas viejas.
+195¦La terza lanterna si accende con un guizzo.¦La tercera linterna se enciende de golpe.
+198¦L'ultima campana risuona.¦La última campana resuena.
+231¦Sul muro compare un numero luminoso!¦¡En la pared aparece un número luminoso!
+232¦Il ghiaccio si scioglie in semplice pietra.¦El hielo se derrite y queda piedra normal.
