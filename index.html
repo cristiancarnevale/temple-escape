@@ -6,7 +6,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#08191f">
-<title>New Game</title>
+<title>Temple Escape</title>
 <style>
 :root{--bg:#08191f;--panel:#0f2c36;--panel-2:#153947;--line:#2a5866;--fg:#e8efe9;--muted:#8db0b4;--accent:#f2b84b;--accent-ink:#2a1c03;--good:#6fcf8c;--bad:#ef6f62;
   --font-body:system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:dark}
@@ -20,8 +20,8 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size
 h1{margin:0;font-size:26px;line-height:1}
 .stage{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px}
 .viewport{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:6px;background:#0b3d50;overflow:hidden}
-canvas{display:block;width:auto;height:auto;max-width:100%;max-height:100%;aspect-ratio:15/11}
-.log{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:13px;height:72px;overflow:hidden}
+canvas{display:block;width:100%;height:100%;object-fit:contain}
+.log{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 12px;font-size:13px;height:84px;overflow:hidden;flex:none}.log div{color:var(--muted)}.log div:first-child{color:var(--fg)}
 .controls{display:flex;gap:16px;justify-content:space-between;align-items:flex-end;flex-wrap:wrap}
 .dpad{display:grid;grid-template-columns:repeat(3,52px);grid-template-rows:repeat(2,52px);gap:6px}
 .dpad button:nth-child(1){grid-column:2;grid-row:1}.dpad button:nth-child(2){grid-column:1;grid-row:2}.dpad button:nth-child(3){grid-column:2;grid-row:2}.dpad button:nth-child(4){grid-column:3;grid-row:2}
@@ -36,16 +36,19 @@ button.primary{background:var(--accent);color:var(--accent-ink);border-color:var
 .btns{display:flex;gap:8px;flex-wrap:wrap}
 .langs{display:flex;gap:6px;flex-wrap:wrap}.langs button{min-height:32px;padding:4px 12px;font-size:13px}.langs button.on{border-color:var(--accent);color:var(--accent)}
 .muted{color:var(--muted);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;min-height:26px;align-items:center}.chip{background:var(--panel-2);border:1px solid var(--line);border-radius:3px;padding:3px 8px;font-size:12.5px;color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.stats div{background:var(--panel-2);border-radius:4px;padding:8px 10px;font-size:12px;color:var(--muted)}.stats b{display:block;font:500 18px ui-monospace,Menlo,monospace;color:var(--fg)}
 </style>
 </head>
 <body>
 <div class="app">
   <header class="top">
-    <h1>New Game</h1>
+    <h1>Temple Escape</h1>
     <button id="langbtn" type="button" aria-label="Language">EN</button>
   </header>
   <section class="stage">
-    <div class="viewport"><canvas id="map" width="480" height="352" aria-label="Game map"></canvas></div>
+    <div class="viewport"><canvas id="map" width="480" height="352" style="touch-action:none" aria-label="Game map"></canvas></div>
+    <div class="chips" id="pack"></div>
     <div class="log" id="log" aria-live="polite"></div>
     <div class="controls">
       <div class="dpad" id="dpad">
@@ -59,10 +62,10 @@ button.primary{background:var(--accent);color:var(--accent-ink);border-color:var
 </div>
 <div class="overlay" id="overlay" hidden><div class="card" id="card"></div></div>
 
-<script>window.__I18N_DATA={"k":[],"it":[],"es":[]};</script>
+<script>window.__I18N_DATA={"k":["The more of me there is, the less you see. What am I?","A mirror","I have hands but I cannot clap. What am I?","A statue","A clock","A glove","What goes up when the rain comes down?","A bird","A cloud","An umbrella","The Entrance Hall","The Hall of Statues","The Lever Gallery","The Tile Floor","The Golden Vault","Explorer's log","Temple Escape","You were chasing a golden butterfly when the jungle floor gave way. You fall through the roof of an old stone temple and land on the dusty floor of the Entrance Hall.","The hole above is far too high to climb. The only way out is through the temple, past its riddles, levers and tricky floors, and up the stairs to the sun.","Walk with the arrow keys, WASD, the buttons, or tap the map. Walk into things to use them. Nothing here can hurt you. If you slip, you only lose a little time.","Start exploring","The statue speaks","Riddle","Walk away","Treasure hunter","Wise explorer","You escaped!","You climb the worn stairs with the golden idol under your arm and push open a stone hatch. Sunlight pours over you. Birds sing. Far below, the temple gives a long, relieved rumble and goes quiet.","You leave the golden idol on its pedestal, because some treasure belongs where it is. The stairs end at a stone hatch. You push it open and the sunlight pours over you. Birds sing, and the golden butterfly is waiting.","Steps<b>","Play again","The torch bracket is empty now.","You pull a torch from the wall bracket. It flares up with a warm orange light.","A cracked clay jar. Inside is a rolled note: \"Light a torch before going deeper. The dark rooms hide the way.\"","The statue smiles. Its eyes glow green.","A faded mural shows three signs in a row: a Sun, then a Moon, then a Star. Under it: \"Wake them in this order.\"","The pedestal is empty.","You lift the golden idol. The whole temple gives a long, deep rumble. Take the stairs when you are ready.","The lever is already down.","The third lever clunks down. Somewhere in the wall, a chain rattles and the north door grinds open.","Clunk. The "," lever stays down.","Click-click-click. All the levers spring back up. Try again, the mural has the order.","It is pitch black beyond the door. You need a light first.","The door is sealed. Three statues guard it. Answer all of their riddles.","The stone door will not move. There must be a way to wake it.","Click! The tile sinks and you slide back to the start of the room.","Torch","Golden idol","Riddles "," of 3","Empty-handed.","You dust yourself off. Find a light, then find the way out.","Correct! The statue's eyes glow green.","A deep click echoes from the north door. It is open.","The statue's eyes flicker. That is not it. Try again, there is no rush.","Darkness","Sunshine","Sun","Moon","Star","Language","Game map","Move north","Move west","Move south","Move east","Slips<b>"],"it":["Più ce n'è, meno si vede. Cosa sono?","Uno specchio","Ho le mani ma non posso applaudire. Cosa sono?","Una statua","Un orologio","Un guanto","Cosa sale quando la pioggia scende?","Un uccello","Una nuvola","Un ombrello","La Sala d'Ingresso","La Sala delle Statue","La Galleria delle Leve","Il Pavimento a Piastrelle","Il Caveau d'Oro","Diario dell'esploratore","Fuga dal Tempio","Stavi inseguendo una farfalla dorata quando il terreno della giungla ha ceduto. Precipiti attraverso il tetto di un antico tempio di pietra e atterri sul pavimento polveroso della Sala d'Ingresso.","Il buco sopra è troppo alto per arrampicarsi. L'unica via d'uscita attraversa il tempio, tra indovinelli, leve e pavimenti insidiosi, e sale le scale verso il sole.","Muoviti con le frecce, WASD, i pulsanti o toccando la mappa. Cammina contro le cose per usarle. Qui niente può farti male. Se scivoli, perdi solo un po' di tempo.","Inizia l'esplorazione","La statua parla","Indovinello","Vai via","Cacciatore di tesori","Esploratore saggio","Sei scappato!","Sali i gradini consumati con l'idolo d'oro sotto il braccio e spingi un portello di pietra. La luce del sole ti inonda. Gli uccelli cantano. Molto più in basso, il tempio emette un lungo rombo sollevato e tace.","Lasci l'idolo d'oro sul suo piedistallo, perché certi tesori appartengono al loro posto. Le scale finiscono in un portello di pietra. Lo spingi e la luce del sole ti inonda. Gli uccelli cantano, e la farfalla dorata ti aspetta.","Passi<b>","Gioca ancora","Il sostegno della torcia ora è vuoto.","Estrai una torcia dal sostegno sul muro. Si accende con una calda luce arancione.","Una giara di terracotta incrinata. Dentro c'è un biglietto arrotolato: \"Accendi una torcia prima di andare più a fondo. Le sale buie nascondono la via.\"","La statua sorride. I suoi occhi brillano di verde.","Un mosaico sbiadito mostra tre segni in fila: un Sole, poi una Luna, poi una Stella. Sotto: \"Risvegliali in quest'ordine.\"","Il piedistallo è vuoto.","Sollevi l'idolo d'oro. L'intero tempio emette un lungo, profondo rombo. Prendi le scale quando sei pronto.","La leva è già abbassata.","La terza leva scatta giù. Da qualche parte nel muro una catena sferraglia e la porta a nord si apre con un cigolio.","Clunk. La leva "," resta abbassata.","Clic-clic-clic. Tutte le leve tornano su di scatto. Riprova, il mosaico ha l'ordine.","Oltre la porta è buio pesto. Prima ti serve una luce.","La porta è sigillata. Tre statue la sorvegliano. Rispondi a tutti i loro indovinelli.","La porta di pietra non si muove. Deve esserci un modo per svegliarla.","Clic! La piastrella affonda e scivoli all'inizio della sala.","Torcia","Idolo d'oro","Indovinelli "," su 3","A mani vuote.","Ti scrolli la polvere di dosso. Trova una luce, poi trova la via d'uscita.","Esatto! Gli occhi della statua brillano di verde.","Un profondo clic risuona dalla porta a nord. È aperta.","Gli occhi della statua tremolano. Non è questa. Riprova, non c'è fretta.","Il buio","La luce del sole","Sole","Luna","Stella","Lingua","Mappa del gioco","Vai a nord","Vai a ovest","Vai a sud","Vai a est","Scivoloni<b>"],"es":["Cuanto más hay de mí, menos ves. ¿Qué soy?","Un espejo","Tengo manos pero no puedo aplaudir. ¿Qué soy?","Una estatua","Un reloj","Un guante","¿Qué sube cuando la lluvia baja?","Un pájaro","Una nube","Un paraguas","El Vestíbulo de Entrada","La Sala de las Estatuas","La Galería de las Palancas","El Suelo de Baldosas","La Cámara Dorada","Diario del explorador","Escape del Templo","Estabas persiguiendo una mariposa dorada cuando el suelo de la selva cedió. Caes a través del techo de un antiguo templo de piedra y aterrizas en el suelo polvoriento del Vestíbulo de Entrada.","El agujero de arriba está demasiado alto para trepar. La única salida atraviesa el templo, entre acertijos, palancas y suelos traicioneros, y sube las escaleras hacia el sol.","Muévete con las flechas, WASD, los botones o tocando el mapa. Camina hacia las cosas para usarlas. Aquí nada puede hacerte daño. Si resbalas, solo pierdes un poco de tiempo.","Empieza a explorar","La estatua habla","Acertijo","Aléjate","Cazador de tesoros","Explorador sabio","¡Has escapado!","Subes los escalones gastados con el ídolo de oro bajo el brazo y empujas una trampilla de piedra. La luz del sol te inunda. Los pájaros cantan. Muy abajo, el templo emite un largo estruendo aliviado y se queda en silencio.","Dejas el ídolo de oro en su pedestal, porque algunos tesoros pertenecen donde están. Las escaleras terminan en una trampilla de piedra. La empujas y la luz del sol te inunda. Los pájaros cantan, y la mariposa dorada te está esperando.","Pasos<b>","Jugar otra vez","El soporte de la antorcha está vacío ahora.","Sacas una antorcha del soporte de la pared. Se aviva con una cálida luz naranja.","Una vasija de barro agrietada. Dentro hay una nota enrollada: \"Enciende una antorcha antes de ir más adentro. Las salas oscuras esconden el camino.\"","La estatua sonríe. Sus ojos brillan en verde.","Un mural descolorido muestra tres signos en fila: un Sol, luego una Luna, luego una Estrella. Debajo: \"Despiértalos en este orden.\"","El pedestal está vacío.","Levantas el ídolo de oro. Todo el templo emite un largo y profundo estruendo. Sube las escaleras cuando estés listo.","La palanca ya está bajada.","La tercera palanca baja con un golpe. En algún lugar de la pared una cadena traquetea y la puerta del norte se abre rechinando.","Clunk. La palanca "," se queda abajo.","Clic-clic-clic. Todas las palancas vuelven a subir de golpe. Inténtalo de nuevo, el mural tiene el orden.","Más allá de la puerta hay oscuridad total. Primero necesitas una luz.","La puerta está sellada. Tres estatuas la vigilan. Responde a todos sus acertijos.","La puerta de piedra no se mueve. Debe haber una forma de despertarla.","¡Clic! La baldosa se hunde y resbalas hasta el inicio de la sala.","Antorcha","Ídolo de oro","Acertijos "," de 3","Con las manos vacías.","Te sacudes el polvo. Encuentra una luz, y luego encuentra la salida.","¡Correcto! Los ojos de la estatua brillan en verde.","Un profundo clic resuena desde la puerta del norte. Está abierta.","Los ojos de la estatua parpadean. No es eso. Inténtalo de nuevo, no hay prisa.","Oscuridad","Luz del sol","Sol","Luna","Estrella","Idioma","Mapa del juego","Ir al norte","Ir al oeste","Ir al sur","Ir al este","Resbalones<b>"]};</script>
 <script>
 (function(){
-var LS='wreckIsland.lang',LANGS=['en','it','es'],LANG='en';
+var LS='templeEscape.lang',LANGS=['en','it','es'],LANG='en';
 try{var sv=window.localStorage.getItem(LS);if(LANGS.indexOf(sv)>=0)LANG=sv;else{var nl=String(navigator.language||'').slice(0,2).toLowerCase();if(nl==='it'||nl==='es')LANG=nl}}catch(e){
   try{var nl2=String(navigator.language||'').slice(0,2).toLowerCase();if(nl2==='it'||nl2==='es')LANG=nl2}catch(e2){}
 }
@@ -149,26 +152,158 @@ window.__i18n={
 <script>
 (function(){
 function $(id){return document.getElementById(id)}
-var ctx=$('map').getContext('2d'),px=5,py=5,modal=false;
-function say(m){var d=document.createElement('div');d.textContent=m;var l=$('log');l.insertBefore(d,l.firstChild)}
-function draw(){ctx.fillStyle='#0b3d50';ctx.fillRect(0,0,480,352);ctx.fillStyle='#f2b84b';ctx.fillRect(px*32+4,py*32+4,24,24)}
-function openCard(html){modal=true;$('card').innerHTML=html;$('overlay').hidden=false;var b=$('card').querySelector('button.primary');if(b)b.focus()}
+var TS=32,VW=15,VH=11,CW=VW*TS,CH=VH*TS;
+var cv=$('map'),ctx=cv.getContext('2d'),dpr=Math.min(2,window.devicePixelRatio||1);
+cv.width=CW*dpr;cv.height=CH*dpr;
+var dk=document.createElement('canvas');dk.width=CW*dpr;dk.height=CH*dpr;var dctx=dk.getContext('2d');
+/* ---------- rooms ---------- */
+var BOX=['###############','#.............#','#.............#','#.............#','#.............#','#.............#','#.............#','#.............#','#.............#','#.............#','###############'];
+var RIDDLES=[
+ {q:'The more of me there is, the less you see. What am I?',a:['Darkness','Sunshine','A mirror'],ok:0},
+ {q:'I have hands but I cannot clap. What am I?',a:['A statue','A clock','A glove'],ok:1},
+ {q:'What goes up when the rain comes down?',a:['A bird','A cloud','An umbrella'],ok:2}];
+var ROOMS=[
+ {name:'The Entrance Hall',dark:false,floor:'#b79a62',wall:'#6b5535',back:false,fwd:true,
+  obj:[{t:'torch',x:3,y:2,solid:true},{t:'jar',x:11,y:3,solid:true},{t:'hole',x:7,y:5,solid:false}],start:[7,8]},
+ {name:'The Hall of Statues',dark:true,floor:'#8f8a7a',wall:'#4d4a42',back:true,fwd:true,
+  obj:[{t:'statue',x:3,y:3,id:0,solid:true},{t:'statue',x:7,y:3,id:1,solid:true},{t:'statue',x:11,y:3,id:2,solid:true}],start:[7,9]},
+ {name:'The Lever Gallery',dark:true,floor:'#8a7f6e',wall:'#4a4136',back:true,fwd:true,
+  obj:[{t:'mural',x:3,y:1,solid:true},{t:'lever',x:3,y:5,sym:1,solid:true},{t:'lever',x:7,y:5,sym:2,solid:true},{t:'lever',x:11,y:5,sym:0,solid:true}],start:[7,9]},
+ {name:'The Tile Floor',dark:true,floor:'#9a8f78',wall:'#4a4036',back:true,fwd:true,obj:[],start:[7,9]},
+ {name:'The Golden Vault',dark:false,floor:'#c9a64a',wall:'#7a5a1c',back:true,fwd:false,
+  obj:[{t:'idol',x:7,y:4,solid:true},{t:'stairs',x:7,y:1,solid:false}],start:[7,9]}];
+var SAFE='7,9 7,8 6,8 5,8 5,7 5,6 5,5 6,5 7,5 8,5 9,5 9,4 9,3 8,3 7,3 7,2 7,1'.split(' ');
+var TILESYM={};(function(){var n=0;for(var y=1;y<=9;y++)for(var x=1;x<=13;x++){var k=x+','+y;TILESYM[k]=SAFE.indexOf(k)>=0?0:1+((x*3+y*5+n++)%2)}})();
+var S,modal=false,T=0;
+function newGame(){S={room:0,x:7,y:8,face:1,pack:{torch:false,idol:false},solved:[false,false,false],lev:0,levDone:false,slips:0,steps:0,rumble:false,over:false}}
+function say(m){var d=document.createElement('div');d.textContent=m;var l=$('log');l.insertBefore(d,l.firstChild);while(l.children.length>3)l.removeChild(l.lastChild)}
+function R(){return ROOMS[S.room]}
+function objAt(x,y){var o=R().obj;for(var i=0;i<o.length;i++)if(o[i].x===x&&o[i].y===y)return o[i];return null}
+function isWall(x,y){if(x<0||y<0||x>=VW||y>=VH)return true;var r=R();if(BOX[y].charAt(x)==='#'){if(x===7&&y===0&&r.fwd)return false;if(x===7&&y===10&&r.back)return false;return true}return false}
+/* ---------- cards ---------- */
+function openCard(html){modal=true;$('card').innerHTML=html;$('overlay').hidden=false;var b=$('card').querySelector('button.primary')||$('card').querySelector('button');if(b)b.focus()}
 function closeCard(){modal=false;$('overlay').hidden=true}
+function langs(){var L=window.__i18n.get();return '<div class="langs" role="group" aria-label="Language">'+[['en','English'],['it','Italiano'],['es','Español']].map(function(x){return '<button type="button" data-act="lang" data-l="'+x[0]+'" aria-pressed="'+(x[0]===L)+'"'+(x[0]===L?' class="on"':'')+'>'+x[1]+'</button>'}).join('')+'</div>'}
 function intro(){
-  var L=window.__i18n.get();
-  openCard('<div class="langs" role="group" aria-label="Language">'+[['en','English'],['it','Italiano'],['es','Español']].map(function(x){return '<button type="button" data-act="lang" data-l="'+x[0]+'" aria-pressed="'+(x[0]===L)+'"'+(x[0]===L?' class="on"':'')+'>'+x[1]+'</button>'}).join('')+'</div>'+
-  '<div class="kicker">Game log</div><h2>New Game</h2><p>Write the story here.</p>'+
-  '<div class="btns"><button class="primary" data-act="start">Start</button></div>');
+  openCard(langs()+'<div class="kicker">Explorer\'s log</div><h2>Temple Escape</h2>'+
+  '<p>You were chasing a golden butterfly when the jungle floor gave way. You fall through the roof of an old stone temple and land on the dusty floor of the Entrance Hall.</p>'+
+  '<p>The hole above is far too high to climb. The only way out is through the temple, past its riddles, levers and tricky floors, and up the stairs to the sun.</p>'+
+  '<p class="muted">Walk with the arrow keys, WASD, the buttons, or tap the map. Walk into things to use them. Nothing here can hurt you. If you slip, you only lose a little time.</p>'+
+  '<div class="btns"><button class="primary" data-act="start">Start exploring</button></div>');
 }
-function move(dx,dy){if(modal)return;px=Math.max(0,Math.min(14,px+dx));py=Math.max(0,Math.min(10,py+dy));draw()}
-$('dpad').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var d=b.getAttribute('data-dir').split(',');move(+d[0],+d[1])});
-document.addEventListener('keydown',function(e){var m={ArrowUp:[0,-1],ArrowDown:[0,1],ArrowLeft:[-1,0],ArrowRight:[1,0],w:[0,-1],s:[0,1],a:[-1,0],d:[1,0]}[e.key];if(m){e.preventDefault();move(m[0],m[1])}});
-function langRefresh(){if(!$('overlay').hidden&&$('card').querySelector('[data-act="start"]'))intro()}
+function riddleCard(i){var r=RIDDLES[i];
+  openCard('<div class="kicker">The statue speaks</div><h2>Riddle</h2><p>"'+r.q+'"</p><div class="btns" style="flex-direction:column">'+r.a.map(function(t,k){return '<button data-act="ans" data-i="'+i+'" data-k="'+k+'">'+t+'</button>'}).join('')+'</div>'+'<div class="btns"><button data-act="close">Walk away</button></div>')}
+function endCard(){
+  S.over=true;var idol=S.pack.idol;
+  openCard('<div class="kicker">'+(idol?'Treasure hunter':'Wise explorer')+'</div><h2>You escaped!</h2>'+
+  '<p>'+(idol?'You climb the worn stairs with the golden idol under your arm and push open a stone hatch. Sunlight pours over you. Birds sing. Far below, the temple gives a long, relieved rumble and goes quiet.':'You leave the golden idol on its pedestal, because some treasure belongs where it is. The stairs end at a stone hatch. You push it open and the sunlight pours over you. Birds sing, and the golden butterfly is waiting.')+'</p>'+
+  '<div class="stats"><div>Steps<b>'+S.steps+'</b></div><div>Slips<b>'+S.slips+'</b></div></div>'+
+  '<div class="btns"><button class="primary" data-act="again">Play again</button></div>');
+}
+/* ---------- rules ---------- */
+function useObj(o){
+  var r=S.room;
+  if(o.t==='torch'){if(S.pack.torch){say('The torch bracket is empty now.')}else{S.pack.torch=true;o.taken=true;say('You pull a torch from the wall bracket. It flares up with a warm orange light.');hud()}}
+  else if(o.t==='jar'){say('A cracked clay jar. Inside is a rolled note: "Light a torch before going deeper. The dark rooms hide the way."')}
+  else if(o.t==='statue'){if(S.solved[o.id])say('The statue smiles. Its eyes glow green.');else riddleCard(o.id)}
+  else if(o.t==='mural'){say('A faded mural shows three signs in a row: a Sun, then a Moon, then a Star. Under it: "Wake them in this order."')}
+  else if(o.t==='lever'){pull(o)}
+  else if(o.t==='idol'){if(S.pack.idol)say('The pedestal is empty.');else{S.pack.idol=true;S.rumble=true;say('You lift the golden idol. The whole temple gives a long, deep rumble. Take the stairs when you are ready.');hud()}}
+}
+function pull(o){
+  var names=['Sun','Moon','Star'];
+  if(S.levDone){say('The lever is already down.');return}
+  if(o.sym===S.lev){S.lev++;o.down=true;if(S.lev===3){S.levDone=true;say('The third lever clunks down. Somewhere in the wall, a chain rattles and the north door grinds open.')}else say('Clunk. The '+names[o.sym]+' lever stays down.')}
+  else{S.slips++;S.lev=0;ROOMS[2].obj.forEach(function(l){l.down=false});say('Click-click-click. All the levers spring back up. Try again, the mural has the order.')}
+}
+function door(top){
+  var r=S.room;
+  if(top){
+    if(r===0&&!S.pack.torch){say('It is pitch black beyond the door. You need a light first.');return}
+    if(r===1&&!(S.solved[0]&&S.solved[1]&&S.solved[2])){say('The door is sealed. Three statues guard it. Answer all of their riddles.');return}
+    if(r===2&&!S.levDone){say('The stone door will not move. There must be a way to wake it.');return}
+    S.room=r+1;S.x=7;S.y=9;say(R().name+'.')
+  }else{S.room=r-1;S.x=7;S.y=1;say(R().name+'.')}
+}
+function move(dx,dy){
+  if(modal||S.over)return;
+  if(dx)S.face=dx>0?1:-1;
+  var nx=S.x+dx,ny=S.y+dy;
+  if(isWall(nx,ny))return;
+  if(ny===0&&nx===7&&R().fwd){door(true);return}
+  if(ny===10&&nx===7&&R().back){door(false);return}
+  var o=objAt(nx,ny);
+  if(o&&o.solid){useObj(o);return}
+  S.x=nx;S.y=ny;S.steps++;
+  if(o&&o.t==='stairs'){endCard();return}
+  if(S.room===3){var k=nx+','+ny;if(TILESYM[k]>0){S.slips++;say('Click! The tile sinks and you slide back to the start of the room.');S.x=7;S.y=9}}
+}
+/* ---------- drawing ---------- */
+function star(c,x,y,r,col){c.fillStyle=col;c.beginPath();for(var i=0;i<10;i++){var a=-Math.PI/2+i*Math.PI/5,rr=i%2?r*.45:r;c.lineTo(x+Math.cos(a)*rr,y+Math.sin(a)*rr)}c.closePath();c.fill()}
+function sym(c,k,x,y,r,col){
+  if(k===0){c.fillStyle=col;c.beginPath();c.arc(x,y,r*.55,0,7);c.fill();c.strokeStyle=col;c.lineWidth=2;for(var i=0;i<8;i++){var a=i*Math.PI/4;c.beginPath();c.moveTo(x+Math.cos(a)*r*.75,y+Math.sin(a)*r*.75);c.lineTo(x+Math.cos(a)*r,y+Math.sin(a)*r);c.stroke()}}
+  else if(k===1){c.save();c.beginPath();c.arc(x,y,r*.85,0,7);c.clip();c.fillStyle=col;c.beginPath();c.rect(x-r,y-r,2*r,2*r);c.arc(x+r*.45,y-r*.2,r*.7,0,7);c.fill('evenodd');c.restore()}
+  else star(c,x,y,r,col)}
+function drawObj(o){
+  var x=o.x*TS,y=o.y*TS,c=ctx;
+  if(o.t==='torch'){c.fillStyle='#6b4a22';c.fillRect(x+14,y+12,5,16);if(!o.taken){var f=3*Math.sin(T/110);c.fillStyle='#ff9a2e';c.beginPath();c.ellipse(x+16.5,y+9,6,9+f,0,0,7);c.fill();c.fillStyle='#ffe28a';c.beginPath();c.ellipse(x+16.5,y+11,3,5+f/2,0,0,7);c.fill()}}
+  else if(o.t==='jar'){c.fillStyle='#a8603a';c.beginPath();c.ellipse(x+16,y+19,10,11,0,0,7);c.fill();c.fillStyle='#7a4024';c.fillRect(x+10,y+5,12,6);c.strokeStyle='#4a2410';c.beginPath();c.moveTo(x+12,y+14);c.lineTo(x+17,y+20);c.lineTo(x+14,y+27);c.stroke()}
+  else if(o.t==='hole'){c.fillStyle='rgba(255,236,170,.22)';c.beginPath();c.ellipse(x+16,y+16,26,20,0,0,7);c.fill();c.fillStyle='rgba(255,246,200,.35)';c.beginPath();c.ellipse(x+16,y+16,14,10,0,0,7);c.fill()}
+  else if(o.t==='statue'){var ok=S.solved[o.id];c.fillStyle='#8c8c86';c.fillRect(x+7,y+13,18,17);c.fillStyle='#a2a29a';c.beginPath();c.arc(x+16,y+9,8,0,7);c.fill();c.fillStyle=ok?'#6fcf8c':'#2a2a2a';c.fillRect(x+11,y+7,3,3);c.fillRect(x+18,y+7,3,3);c.fillStyle='#6d6d68';c.fillRect(x+4,y+28,24,4)}
+  else if(o.t==='mural'){c.fillStyle='#c9b27a';c.fillRect(x-48,y+2,128+16,26);c.strokeStyle='#5a4524';c.strokeRect(x-48,y+2,144,26);sym(c,0,x-24,y+15,9,'#e6a817');sym(c,1,x+16,y+15,9,'#cfd6e0');sym(c,2,x+56,y+15,9,'#9ad0f0')}
+  else if(o.t==='lever'){c.fillStyle='#5a5a58';c.fillRect(x+4,y+22,24,8);c.strokeStyle='#d8c27a';c.lineWidth=4;c.beginPath();c.moveTo(x+16,y+24);c.lineTo(o.down?x+27:x+5,o.down?y+22:y+4);c.stroke();c.fillStyle='#e04a3a';c.beginPath();c.arc(o.down?x+27:x+5,o.down?y+22:y+4,4,0,7);c.fill();sym(c,o.sym,x+16,y-10,9,['#e6a817','#cfd6e0','#9ad0f0'][o.sym]);c.lineWidth=1}
+  else if(o.t==='idol'){c.fillStyle='#6b5a3a';c.fillRect(x+4,y+20,24,10);if(!S.pack.idol){c.fillStyle='#ffd23f';c.beginPath();c.ellipse(x+16,y+14,8,10,0,0,7);c.fill();c.fillStyle='#fff3b0';c.fillRect(x+12,y+8,3,3);c.fillRect(x+18,y+8,3,3);var g=.25+.15*Math.sin(T/200);c.fillStyle='rgba(255,230,120,'+g+')';c.beginPath();c.arc(x+16,y+14,22,0,7);c.fill()}}
+  else if(o.t==='stairs'){for(var i=0;i<5;i++){c.fillStyle='hsl(45,70%,'+(55+i*7)+'%)';c.fillRect(x+2+i*0,y+i*6,28,6)}c.fillStyle='rgba(255,250,200,'+(.35+.15*Math.sin(T/260))+')';c.fillRect(x-4,y-14,40,22)}
+}
+function draw(){
+  var r=R(),c=ctx;c.setTransform(dpr,0,0,dpr,0,0);
+  for(var y=0;y<VH;y++)for(var x=0;x<VW;x++){
+    var wall=BOX[y].charAt(x)==='#'&&!(x===7&&y===0&&r.fwd)&&!(x===7&&y===10&&r.back);
+    if(wall){c.fillStyle=r.wall;c.fillRect(x*TS,y*TS,TS,TS);c.fillStyle='rgba(0,0,0,.25)';c.fillRect(x*TS,y*TS+TS-3,TS,3);c.fillStyle='rgba(255,255,255,.07)';c.fillRect(x*TS,y*TS,TS,2);if((x+y)%2)c.fillRect(x*TS+16,y*TS,2,TS)}
+    else{c.fillStyle=((x+y)%2)?r.floor:shade(r.floor,-8);c.fillRect(x*TS,y*TS,TS,TS);
+      if(S.room===3&&y>=1&&y<=9&&x>=1&&x<=13){var k=TILESYM[x+','+y];sym(c,k===0?0:k,x*TS+16,y*TS+16,8,k===0?'rgba(230,168,23,.85)':(k===1?'rgba(60,60,80,.45)':'rgba(60,60,80,.45)'))}}
+  }
+  /* doors */
+  [[7,0,r.fwd],[7,10,r.back]].forEach(function(d){if(!d[2])return;var x=d[0]*TS,y=d[1]*TS,open=doorOpen(d[1]===0);c.fillStyle=open?'#3a2a14':'#6e6e6a';c.fillRect(x+2,y+(d[1]?0:4),28,28);c.fillStyle=open?'#1a1208':'#8a8a85';c.fillRect(x+6,y+(d[1]?0:8),20,24);if(!open&&d[1]===0){c.fillStyle='#d8c27a';c.fillRect(x+14,y+16,4,6)}});
+  r.obj.forEach(drawObj);
+  /* player */
+  var px=S.x*TS,py=S.y*TS;c.fillStyle='rgba(0,0,0,.25)';c.beginPath();c.ellipse(px+16,py+29,9,3,0,0,7);c.fill();
+  c.fillStyle='#2a5a8a';c.fillRect(px+10,py+22,5,7);c.fillRect(px+17,py+22,5,7);c.fillStyle='#e8a11d';c.fillRect(px+9,py+13,14,11);c.fillStyle='#f0c9a0';c.beginPath();c.arc(px+16,py+9,6,0,7);c.fill();
+  c.fillStyle='#8a5a22';c.fillRect(px+8,py+2,16,4);c.fillRect(px+11,py-1,10,4);
+  c.fillStyle='#2a1a0a';c.fillRect(px+(S.face>0?18:12),py+8,2,2);
+  if(S.pack.torch&&!S.torchHeld){}
+  if(S.pack.torch){var f=2*Math.sin(T/90);c.fillStyle='#6b4a22';c.fillRect(px+(S.face>0?23:6),py+10,3,9);c.fillStyle='#ff9a2e';c.beginPath();c.ellipse(px+(S.face>0?24.5:7.5),py+8,4,6+f,0,0,7);c.fill()}
+  /* darkness with light around the player */
+  if(r.dark){var d=dctx;d.setTransform(dpr,0,0,dpr,0,0);d.globalCompositeOperation='source-over';d.clearRect(0,0,CW,CH);d.fillStyle='rgba(2,4,8,.9)';d.fillRect(0,0,CW,CH);d.globalCompositeOperation='destination-out';
+    var rad=(S.pack.torch?150:60)+(S.pack.torch?4*Math.sin(T/120):0),g=d.createRadialGradient(px+16,py+16,rad*.25,px+16,py+16,rad);g.addColorStop(0,'rgba(0,0,0,1)');g.addColorStop(1,'rgba(0,0,0,0)');d.fillStyle=g;d.fillRect(0,0,CW,CH);d.globalCompositeOperation='source-over';
+    c.setTransform(1,0,0,1,0,0);c.drawImage(dk,0,0);c.setTransform(dpr,0,0,dpr,0,0)}
+  c.fillStyle='rgba(0,0,0,.45)';c.fillRect(6,6,168,22);c.fillStyle='#f2e6c4';c.font='600 13px system-ui,sans-serif';c.textBaseline='middle';c.fillText(r.name,12,17);
+}
+function doorOpen(top){var r=S.room;if(!top)return true;if(r===0)return S.pack.torch;if(r===1)return S.solved[0]&&S.solved[1]&&S.solved[2];if(r===2)return S.levDone;return true}
+function shade(hex,p){var n=parseInt(hex.slice(1),16),r=Math.max(0,Math.min(255,(n>>16)+p)),g=Math.max(0,Math.min(255,((n>>8)&255)+p)),b=Math.max(0,Math.min(255,(n&255)+p));return 'rgb('+r+','+g+','+b+')'}
+function hud(){var h='';if(S.pack.torch)h+='<span class="chip">Torch</span>';if(S.pack.idol)h+='<span class="chip">Golden idol</span>';if(S.solved.some(Boolean)&&S.room===1)h+='<span class="chip">Riddles '+S.solved.filter(Boolean).length+' of 3</span>';$('pack').innerHTML=h||'<span class="muted">Empty-handed.</span>'}
+function loop(t){T=t;draw();requestAnimationFrame(loop)}
+/* ---------- input ---------- */
+var rep=null;
+function stopRep(){if(rep){clearInterval(rep);rep=null}}
+$('dpad').addEventListener('pointerdown',function(e){var b=e.target.closest('button');if(!b)return;e.preventDefault();var d=b.getAttribute('data-dir').split(',');var dx=+d[0],dy=+d[1];stopRep();move(dx,dy);hud();rep=setInterval(function(){move(dx,dy);hud()},170)});
+['pointerup','pointercancel','pointerleave'].forEach(function(n){$('dpad').addEventListener(n,stopRep)});
+window.addEventListener('blur',stopRep);
+$('dpad').addEventListener('click',function(e){var b=e.target.closest('button');if(!b||e.detail!==0)return;var d=b.getAttribute('data-dir').split(',');move(+d[0],+d[1]);hud()});
+cv.addEventListener('pointerdown',function(e){if(modal)return;e.preventDefault();var rc=cv.getBoundingClientRect(),sx=CW/rc.width,tx=(e.clientX-rc.left)*sx-(S.x*TS+16),ty=(e.clientY-rc.top)*sx-(S.y*TS+16);
+  if(Math.abs(tx)>Math.abs(ty))move(tx>0?1:-1,0);else move(0,ty>0?1:-1);hud()});
+document.addEventListener('keydown',function(e){if(modal)return;var m={ArrowUp:[0,-1],ArrowDown:[0,1],ArrowLeft:[-1,0],ArrowRight:[1,0],w:[0,-1],s:[0,1],a:[-1,0],d:[1,0]}[e.key];if(m){e.preventDefault();move(m[0],m[1]);hud()}});
+function langRefresh(){hud();if(!$('overlay').hidden&&$('card').querySelector('[data-act="start"]'))intro()}
 $('overlay').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var a=b.getAttribute('data-act');
   if(a==='lang'){window.__i18n.set(b.getAttribute('data-l'));langRefresh()}
-  else if(a==='start'){closeCard();say('You begin.')}});
+  else if(a==='start'){closeCard();say('You dust yourself off. Find a light, then find the way out.')}
+  else if(a==='close'){closeCard()}
+  else if(a==='ans'){var i=+b.getAttribute('data-i'),k=+b.getAttribute('data-k');
+    if(k===RIDDLES[i].ok){S.solved[i]=true;closeCard();say('Correct! The statue\'s eyes glow green.');if(S.solved[0]&&S.solved[1]&&S.solved[2])say('A deep click echoes from the north door. It is open.');hud()}
+    else{S.slips++;closeCard();say('The statue\'s eyes flicker. That is not it. Try again, there is no rush.')}}
+  else if(a==='again'){newGame();var r0=R();S.x=r0.start[0];S.y=r0.start[1];ROOMS.forEach(function(r){r.obj.forEach(function(o){o.taken=false;o.down=false})});closeCard();$('log').innerHTML='';hud();say('You dust yourself off. Find a light, then find the way out.')}});
 $('langbtn').addEventListener('click',function(){window.__i18n.next();langRefresh()});
-draw();intro();
+newGame();hud();intro();requestAnimationFrame(loop);
 })();
 </script>
 </body>

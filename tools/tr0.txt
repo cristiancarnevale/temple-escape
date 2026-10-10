@@ -1,0 +1,67 @@
+0¦Più ce n'è, meno si vede. Cosa sono?¦Cuanto más hay de mí, menos ves. ¿Qué soy?
+1¦Uno specchio¦Un espejo
+2¦Ho le mani ma non posso applaudire. Cosa sono?¦Tengo manos pero no puedo aplaudir. ¿Qué soy?
+3¦Una statua¦Una estatua
+4¦Un orologio¦Un reloj
+5¦Un guanto¦Un guante
+6¦Cosa sale quando la pioggia scende?¦¿Qué sube cuando la lluvia baja?
+7¦Un uccello¦Un pájaro
+8¦Una nuvola¦Una nube
+9¦Un ombrello¦Un paraguas
+10¦La Sala d'Ingresso¦El Vestíbulo de Entrada
+11¦La Sala delle Statue¦La Sala de las Estatuas
+12¦La Galleria delle Leve¦La Galería de las Palancas
+13¦Il Pavimento a Piastrelle¦El Suelo de Baldosas
+14¦Il Caveau d'Oro¦La Cámara Dorada
+17¦Diario dell'esploratore¦Diario del explorador
+18¦Fuga dal Tempio¦Escape del Templo
+19¦Stavi inseguendo una farfalla dorata quando il terreno della giungla ha ceduto. Precipiti attraverso il tetto di un antico tempio di pietra e atterri sul pavimento polveroso della Sala d'Ingresso.¦Estabas persiguiendo una mariposa dorada cuando el suelo de la selva cedió. Caes a través del techo de un antiguo templo de piedra y aterrizas en el suelo polvoriento del Vestíbulo de Entrada.
+20¦Il buco sopra è troppo alto per arrampicarsi. L'unica via d'uscita attraversa il tempio, tra indovinelli, leve e pavimenti insidiosi, e sale le scale verso il sole.¦El agujero de arriba está demasiado alto para trepar. La única salida atraviesa el templo, entre acertijos, palancas y suelos traicioneros, y sube las escaleras hacia el sol.
+21¦Muoviti con le frecce, WASD, i pulsanti o toccando la mappa. Cammina contro le cose per usarle. Qui niente può farti male. Se scivoli, perdi solo un po' di tempo.¦Muévete con las flechas, WASD, los botones o tocando el mapa. Camina hacia las cosas para usarlas. Aquí nada puede hacerte daño. Si resbalas, solo pierdes un poco de tiempo.
+22¦Inizia l'esplorazione¦Empieza a explorar
+23¦La statua parla¦La estatua habla
+24¦Indovinello¦Acertijo
+26¦Vai via¦Aléjate
+27¦Cacciatore di tesori¦Cazador de tesoros
+28¦Esploratore saggio¦Explorador sabio
+29¦Sei scappato!¦¡Has escapado!
+30¦Sali i gradini consumati con l'idolo d'oro sotto il braccio e spingi un portello di pietra. La luce del sole ti inonda. Gli uccelli cantano. Molto più in basso, il tempio emette un lungo rombo sollevato e tace.¦Subes los escalones gastados con el ídolo de oro bajo el brazo y empujas una trampilla de piedra. La luz del sol te inunda. Los pájaros cantan. Muy abajo, el templo emite un largo estruendo aliviado y se queda en silencio.
+31¦Lasci l'idolo d'oro sul suo piedistallo, perché certi tesori appartengono al loro posto. Le scale finiscono in un portello di pietra. Lo spingi e la luce del sole ti inonda. Gli uccelli cantano, e la farfalla dorata ti aspetta.¦Dejas el ídolo de oro en su pedestal, porque algunos tesoros pertenecen donde están. Las escaleras terminan en una trampilla de piedra. La empujas y la luz del sol te inunda. Los pájaros cantan, y la mariposa dorada te está esperando.
+32¦Passi<b>¦Pasos<b>
+33¦Gioca ancora¦Jugar otra vez
+34¦Il sostegno della torcia ora è vuoto.¦El soporte de la antorcha está vacío ahora.
+35¦Estrai una torcia dal sostegno sul muro. Si accende con una calda luce arancione.¦Sacas una antorcha del soporte de la pared. Se aviva con una cálida luz naranja.
+36¦Una giara di terracotta incrinata. Dentro c'è un biglietto arrotolato: "Accendi una torcia prima di andare più a fondo. Le sale buie nascondono la via."¦Una vasija de barro agrietada. Dentro hay una nota enrollada: "Enciende una antorcha antes de ir más adentro. Las salas oscuras esconden el camino."
+37¦La statua sorride. I suoi occhi brillano di verde.¦La estatua sonríe. Sus ojos brillan en verde.
+38¦Un mosaico sbiadito mostra tre segni in fila: un Sole, poi una Luna, poi una Stella. Sotto: "Risvegliali in quest'ordine."¦Un mural descolorido muestra tres signos en fila: un Sol, luego una Luna, luego una Estrella. Debajo: "Despiértalos en este orden."
+39¦Il piedistallo è vuoto.¦El pedestal está vacío.
+40¦Sollevi l'idolo d'oro. L'intero tempio emette un lungo, profondo rombo. Prendi le scale quando sei pronto.¦Levantas el ídolo de oro. Todo el templo emite un largo y profundo estruendo. Sube las escaleras cuando estés listo.
+41¦La leva è già abbassata.¦La palanca ya está bajada.
+42¦La terza leva scatta giù. Da qualche parte nel muro una catena sferraglia e la porta a nord si apre con un cigolio.¦La tercera palanca baja con un golpe. En algún lugar de la pared una cadena traquetea y la puerta del norte se abre rechinando.
+43¦Clunk. La leva ¦Clunk. La palanca 
+44¦ resta abbassata.¦ se queda abajo.
+45¦Clic-clic-clic. Tutte le leve tornano su di scatto. Riprova, il mosaico ha l'ordine.¦Clic-clic-clic. Todas las palancas vuelven a subir de golpe. Inténtalo de nuevo, el mural tiene el orden.
+46¦Oltre la porta è buio pesto. Prima ti serve una luce.¦Más allá de la puerta hay oscuridad total. Primero necesitas una luz.
+47¦La porta è sigillata. Tre statue la sorvegliano. Rispondi a tutti i loro indovinelli.¦La puerta está sellada. Tres estatuas la vigilan. Responde a todos sus acertijos.
+48¦La porta di pietra non si muove. Deve esserci un modo per svegliarla.¦La puerta de piedra no se mueve. Debe haber una forma de despertarla.
+49¦Clic! La piastrella affonda e scivoli all'inizio della sala.¦¡Clic! La baldosa se hunde y resbalas hasta el inicio de la sala.
+50¦Torcia¦Antorcha
+51¦Idolo d'oro¦Ídolo de oro
+52¦Indovinelli ¦Acertijos 
+53¦ su 3¦ de 3
+54¦A mani vuote.¦Con las manos vacías.
+55¦Ti scrolli la polvere di dosso. Trova una luce, poi trova la via d'uscita.¦Te sacudes el polvo. Encuentra una luz, y luego encuentra la salida.
+56¦Esatto! Gli occhi della statua brillano di verde.¦¡Correcto! Los ojos de la estatua brillan en verde.
+57¦Un profondo clic risuona dalla porta a nord. È aperta.¦Un profundo clic resuena desde la puerta del norte. Está abierta.
+58¦Gli occhi della statua tremolano. Non è questa. Riprova, non c'è fretta.¦Los ojos de la estatua parpadean. No es eso. Inténtalo de nuevo, no hay prisa.
+59¦Il buio¦Oscuridad
+60¦La luce del sole¦Luz del sol
+63¦Sole¦Sol
+64¦Luna¦Luna
+65¦Stella¦Estrella
+67¦Lingua¦Idioma
+68¦Mappa del gioco¦Mapa del juego
+69¦Vai a nord¦Ir al norte
+70¦Vai a ovest¦Ir al oeste
+71¦Vai a sud¦Ir al sur
+72¦Vai a est¦Ir al este

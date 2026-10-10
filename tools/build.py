@@ -17,6 +17,7 @@ for i,k in enumerate(U):
 extra={
  # words the game builds from code (directions, colours...) that are not whole sentences: 'north':('nord','norte'),
  'Language':('Lingua','Idioma'),
+ 'Slips<b>':('Scivoloni<b>','Resbalones<b>'),
 }
 for k,(a,b) in extra.items():
     if k in keys:

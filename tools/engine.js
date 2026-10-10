@@ -1,5 +1,5 @@
 (function(){
-var LS='gameStarter.lang',LANGS=['en','it','es'],LANG='en';
+var LS='templeEscape.lang',LANGS=['en','it','es'],LANG='en';
 try{var sv=window.localStorage.getItem(LS);if(LANGS.indexOf(sv)>=0)LANG=sv;else{var nl=String(navigator.language||'').slice(0,2).toLowerCase();if(nl==='it'||nl==='es')LANG=nl}}catch(e){
   try{var nl2=String(navigator.language||'').slice(0,2).toLowerCase();if(nl2==='it'||nl2==='es')LANG=nl2}catch(e2){}
 }
