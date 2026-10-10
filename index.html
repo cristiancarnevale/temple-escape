@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#08191f">
+<title>New Game</title>
+<style>
+:root{--bg:#08191f;--panel:#0f2c36;--panel-2:#153947;--line:#2a5866;--fg:#e8efe9;--muted:#8db0b4;--accent:#f2b84b;--accent-ink:#2a1c03;--good:#6fcf8c;--bad:#ef6f62;
+  --font-body:system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;touch-action:manipulation;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.45;padding:10px max(14px,env(safe-area-inset-right,0px)) 10px max(14px,env(safe-area-inset-left,0px))}
+[hidden]{display:none!important}
+/* The whole game fits the screen: header, then a stage that takes the rest of the height. */
+.app{max-width:1080px;margin:0 auto;height:calc(100vh - 20px);height:calc(100dvh - 20px);display:flex;flex-direction:column;gap:8px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+h1{margin:0;font-size:26px;line-height:1}
+.stage{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px}
+.viewport{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:6px;background:#0b3d50;overflow:hidden}
+canvas{display:block;width:auto;height:auto;max-width:100%;max-height:100%;aspect-ratio:15/11}
+.log{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:13px;height:72px;overflow:hidden}
+.controls{display:flex;gap:16px;justify-content:space-between;align-items:flex-end;flex-wrap:wrap}
+.dpad{display:grid;grid-template-columns:repeat(3,52px);grid-template-rows:repeat(2,52px);gap:6px}
+.dpad button:nth-child(1){grid-column:2;grid-row:1}.dpad button:nth-child(2){grid-column:1;grid-row:2}.dpad button:nth-child(3){grid-column:2;grid-row:2}.dpad button:nth-child(4){grid-column:3;grid-row:2}
+button{font:600 14px/1.1 var(--font-body);color:var(--fg);background:var(--panel-2);border:1px solid var(--line);border-radius:4px;min-height:44px;padding:8px 12px;cursor:pointer;touch-action:manipulation}
+button:hover:not(:disabled){border-color:var(--accent)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.overlay{position:fixed;inset:0;z-index:20;background:rgba(4,12,16,.88);display:flex;align-items:flex-start;justify-content:center;padding:16px;overflow:auto}
+.card{max-width:480px;width:100%;margin:auto;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.card h2{margin:0;font-size:30px;line-height:1.05}.card p{margin:0}
+.kicker{font:500 11px ui-monospace,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+.langs{display:flex;gap:6px;flex-wrap:wrap}.langs button{min-height:32px;padding:4px 12px;font-size:13px}.langs button.on{border-color:var(--accent);color:var(--accent)}
+.muted{color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <h1>New Game</h1>
+    <button id="langbtn" type="button" aria-label="Language">EN</button>
+  </header>
+  <section class="stage">
+    <div class="viewport"><canvas id="map" width="480" height="352" aria-label="Game map"></canvas></div>
+    <div class="log" id="log" aria-live="polite"></div>
+    <div class="controls">
+      <div class="dpad" id="dpad">
+        <button data-dir="0,-1" aria-label="Move north">&#9650;</button>
+        <button data-dir="-1,0" aria-label="Move west">&#9664;</button>
+        <button data-dir="0,1" aria-label="Move south">&#9660;</button>
+        <button data-dir="1,0" aria-label="Move east">&#9654;</button>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="overlay" id="overlay" hidden><div class="card" id="card"></div></div>
+
+<script>window.__I18N_DATA={"k":[],"it":[],"es":[]};</script>
+<script>
+(function(){
+var LS='wreckIsland.lang',LANGS=['en','it','es'],LANG='en';
+try{var sv=window.localStorage.getItem(LS);if(LANGS.indexOf(sv)>=0)LANG=sv;else{var nl=String(navigator.language||'').slice(0,2).toLowerCase();if(nl==='it'||nl==='es')LANG=nl}}catch(e){
+  try{var nl2=String(navigator.language||'').slice(0,2).toLowerCase();if(nl2==='it'||nl2==='es')LANG=nl2}catch(e2){}
+}
+var D=window.__I18N_DATA,IDX={},cache=new Map(),ALN=/[A-Za-z0-9À-ɏ]/;
+function build(){
+  IDX={};cache.clear();
+  if(LANG==='en')return;
+  var t=D[LANG],ks=D.k;
+  for(var i=0;i<ks.length;i++){
+    var k=ks[i],v=t[i];if(v==null||!k)continue;
+    var c=k.charAt(0);
+    (IDX[c]||(IDX[c]=[])).push([k,v,ALN.test(c),ALN.test(k.charAt(k.length-1))]);
+  }
+  for(var c2 in IDX)IDX[c2].sort(function(a,b){return b[0].length-a[0].length});
+}
+var TAG=/<\/?[A-Za-z][^>]*/y;
+function tr(s){
+  if(LANG==='en'||typeof s!=='string'||s.length<2)return s;
+  var c=cache.get(s);if(c!==undefined)return c;
+  var out='',i=0,n=s.length;
+  while(i<n){
+    var ch=s.charAt(i),L=IDX[ch],hit=null;
+    if(L){
+      var prevAl=i>0&&ALN.test(s.charAt(i-1));
+      for(var j=0;j<L.length;j++){
+        var e=L[j],k=e[0];
+        if(s.startsWith(k,i)){
+          if(e[2]&&prevAl)continue;
+          var end=i+k.length;
+          if(e[3]&&end<n&&ALN.test(s.charAt(end)))continue;
+          hit=e;break;
+        }
+      }
+    }
+    if(hit){out+=hit[1];i+=hit[0].length;continue}
+    if(ch==='<'){TAG.lastIndex=i;var m=TAG.exec(s);if(m){out+=m[0];i+=m[0].length;continue}}
+    out+=ch;i++;
+  }
+  if(cache.size>12000)cache.clear();
+  cache.set(s,out);
+  return out;
+}
+/* patch the text sinks so every string the game writes is translated on the way out */
+try{
+  var di=Object.getOwnPropertyDescriptor(Element.prototype,'innerHTML');
+  Object.defineProperty(Element.prototype,'innerHTML',{get:di.get,set:function(v){di.set.call(this,typeof v==='string'?tr(v):v)},configurable:true});
+  var dt=Object.getOwnPropertyDescriptor(Node.prototype,'textContent');
+  Object.defineProperty(Node.prototype,'textContent',{get:dt.get,set:function(v){dt.set.call(this,typeof v==='string'?tr(v):v)},configurable:true});
+  var cT=document.createTextNode;
+  document.createTextNode=function(t){return cT.call(document,typeof t==='string'?tr(t):t)};
+  var cp=CanvasRenderingContext2D.prototype,fT=cp.fillText;
+  cp.fillText=function(t,x,y,w){return fT.call(this,typeof t==='string'?tr(t):t,x,y,w)};
+}catch(e){}
+/* static page text: remember originals so the language can change live */
+var STATIC=[],ATTR=[];
+function collect(){
+  var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null),n;
+  while((n=w.nextNode())){
+    var p=n.parentNode&&n.parentNode.nodeName;if(p==='SCRIPT'||p==='STYLE')continue;
+    if(/\S/.test(n.nodeValue))STATIC.push([n,n.nodeValue]);
+  }
+  var els=document.querySelectorAll('[aria-label]');
+  for(var i=0;i<els.length;i++)ATTR.push([els[i],els[i].getAttribute('aria-label')]);
+}
+function apply(){
+  for(var i=0;i<STATIC.length;i++)STATIC[i][0].nodeValue=tr(STATIC[i][1]);
+  for(var j=0;j<ATTR.length;j++)ATTR[j][0].setAttribute('aria-label',tr(ATTR[j][1]));
+  document.documentElement.lang=LANG;
+  var lb=document.getElementById('langbtn');if(lb)lb.firstChild.nodeValue=LANG.toUpperCase();
+}
+collect();build();apply();
+window.__i18n={
+  get:function(){return LANG},
+  tr:tr,
+  set:function(l){
+    if(LANGS.indexOf(l)<0)return;
+    LANG=l;try{window.localStorage.setItem(LS,l)}catch(e){}
+    build();apply();
+  },
+  next:function(){this.set(LANGS[(LANGS.indexOf(LANG)+1)%LANGS.length])}
+};
+})();
+</script>
+<script>
+(function(){
+function $(id){return document.getElementById(id)}
+var ctx=$('map').getContext('2d'),px=5,py=5,modal=false;
+function say(m){var d=document.createElement('div');d.textContent=m;var l=$('log');l.insertBefore(d,l.firstChild)}
+function draw(){ctx.fillStyle='#0b3d50';ctx.fillRect(0,0,480,352);ctx.fillStyle='#f2b84b';ctx.fillRect(px*32+4,py*32+4,24,24)}
+function openCard(html){modal=true;$('card').innerHTML=html;$('overlay').hidden=false;var b=$('card').querySelector('button.primary');if(b)b.focus()}
+function closeCard(){modal=false;$('overlay').hidden=true}
+function intro(){
+  var L=window.__i18n.get();
+  openCard('<div class="langs" role="group" aria-label="Language">'+[['en','English'],['it','Italiano'],['es','Español']].map(function(x){return '<button type="button" data-act="lang" data-l="'+x[0]+'" aria-pressed="'+(x[0]===L)+'"'+(x[0]===L?' class="on"':'')+'>'+x[1]+'</button>'}).join('')+'</div>'+
+  '<div class="kicker">Game log</div><h2>New Game</h2><p>Write the story here.</p>'+
+  '<div class="btns"><button class="primary" data-act="start">Start</button></div>');
+}
+function move(dx,dy){if(modal)return;px=Math.max(0,Math.min(14,px+dx));py=Math.max(0,Math.min(10,py+dy));draw()}
+$('dpad').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var d=b.getAttribute('data-dir').split(',');move(+d[0],+d[1])});
+document.addEventListener('keydown',function(e){var m={ArrowUp:[0,-1],ArrowDown:[0,1],ArrowLeft:[-1,0],ArrowRight:[1,0],w:[0,-1],s:[0,1],a:[-1,0],d:[1,0]}[e.key];if(m){e.preventDefault();move(m[0],m[1])}});
+function langRefresh(){if(!$('overlay').hidden&&$('card').querySelector('[data-act="start"]'))intro()}
+$('overlay').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var a=b.getAttribute('data-act');
+  if(a==='lang'){window.__i18n.set(b.getAttribute('data-l'));langRefresh()}
+  else if(a==='start'){closeCard();say('You begin.')}});
+$('langbtn').addEventListener('click',function(){window.__i18n.next();langRefresh()});
+draw();intro();
+})();
+</script>
+</body>
+</html>

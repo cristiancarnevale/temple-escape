@@ -1,0 +1,14 @@
+const acorn=require('acorn'),fs=require('fs');
+const html=fs.readFileSync(process.argv[2]||'../index.html','utf8');
+const m=[...html.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)];const js=m.sort((a,b)=>b[1].length-a[1].length)[0][1];
+const lits=[];
+acorn.parse(js,{ecmaVersion:2022,onToken:undefined});
+const ast=acorn.parse(js,{ecmaVersion:2022});
+(function walk(n,p){if(!n||typeof n.type!=='string')return;
+ if(n.type==='Literal'&&typeof n.value==='string')lits.push(n.value);
+ if(n.type==='TemplateElement')lits.push(n.value.cooked);
+ for(const k in n){const v=n[k];if(Array.isArray(v))v.forEach(x=>walk(x,n));else if(v&&typeof v.type==='string')walk(v,n)}})(ast,null);
+const keep=[...new Set(lits)].filter(s=>/[A-Za-z]{2}/.test(s)&&/\s/.test(s)&&!/^(#|rgba?\(|\d+px|[a-z-]+:)/.test(s)&&!/^[a-z]+(,\s?[a-z]+)*$/.test(s)&&!/(sans-serif|monospace|ctx\.|function)/.test(s));
+fs.writeFileSync('lits.json',JSON.stringify(keep,null,0));
+console.log(lits.length,keep.length,keep.join('').length);
+const short=[...new Set(lits)].filter(s=>/[A-Za-z]{3}/.test(s)&&!/\s/.test(s)&&/^[A-Z][a-z]+$/.test(s));console.log(short.length,short.slice(0,80).join(','));
