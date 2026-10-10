@@ -1,3 +1,20 @@
+0¦Cappello da esploratore¦Sombrero de explorador
+1¦Berretto rosso¦Gorra roja
+2¦Cappello da festa¦Gorro de fiesta
+3¦Cappello da mago¦Sombrero de mago
+4¦Cappello da pirata¦Sombrero pirata
+5¦Cilindro¦Sombrero de copa
+6¦Corona d'oro¦Corona de oro
+7¦Nessun cappello¦Sin sombrero
+8¦Giacca arancione¦Chaqueta naranja
+9¦Giacca blu¦Chaqueta azul
+10¦Giacca verde¦Chaqueta verde
+11¦Giacca rossa¦Chaqueta roja
+12¦Giacca viola¦Chaqueta morada
+13¦Giacca a righe¦Chaqueta de rayas
+14¦Giacca dorata¦Chaqueta dorada
+15¦Mantello rosso¦Capa roja
+16¦Ali di farfalla¦Alas de mariposa
 17¦Più ne prendi, più ne lasci dietro di te. Cosa sono?¦Cuantos más me llevas, más dejas atrás. ¿Qué soy?
 18¦Sono alta quando sono giovane e bassa quando sono vecchia. Cosa sono?¦Soy alta cuando soy joven y baja cuando soy vieja. ¿Qué soy?
 19¦Una candela¦Una vela
@@ -14,13 +31,16 @@
 30¦Un pesce¦Un pez
 31¦Un lago¦Un lago
 32¦Più ce n'è, meno si vede. Cosa sono?¦Cuanto más hay de mí, menos ves. ¿Qué soy?
+33¦Un arcobaleno¦Un arcoíris
 34¦Ho le mani ma non posso applaudire. Cosa sono?¦Tengo manos pero no puedo aplaudir. ¿Qué soy?
 35¦Una statua¦Una estatua
 36¦Un orologio¦Un reloj
+37¦Una barca¦Un bote
 38¦Cosa sale quando la pioggia scende?¦¿Qué sube cuando la lluvia baja?
 39¦Un uccello¦Un pájaro
 40¦Una nuvola¦Una nube
 41¦Un ombrello¦Un paraguas
+42¦Un aquilone¦Una cometa
 43¦Ho città ma non case, montagne ma non alberi e acqua ma non pesci. Cosa sono?¦Tengo ciudades pero no casas, montañas pero no árboles y agua pero no peces. ¿Qué soy?
 44¦Un sogno¦Un sueño
 45¦Un libro¦Un libro
@@ -30,18 +50,41 @@
 49¦Un ponte¦Un puente
 50¦Un uovo¦Un huevo
 51¦Una canzone¦Una canción
+52¦Cosa può viaggiare per il mondo restando in un angolo?¦¿Qué puede viajar por todo el mundo quedándose en una esquina?
+53¦Un francobollo¦Un sello
+54¦Un aereo¦Un avión
+55¦Una nave¦Un barco
+56¦Cosa ha tanti tasti ma non apre nemmeno una porta?¦¿Qué tiene muchas teclas pero no puede abrir ni una sola puerta?
+57¦Un pianoforte¦Un piano
+58¦Un castello¦Un castillo
+59¦Un anello¦Un anillo
+60¦Un lucchetto¦Un candado
 61¦Vuota, a parte un ragno molto sorpreso.¦Vacía, salvo por una araña muy sorprendida.
 62¦Solo polvere e qualche vecchio sassolino.¦Solo polvo y unas cuantas piedrecitas viejas.
 63¦Una sola moneta d'oro! Peccato che sia di cioccolato e vecchissima.¦¡Una sola moneda de oro! Qué pena que sea de chocolate y viejísima.
 64¦Dentro c'è una minuscola rana. Salta fuori e scappa via. Gracra!¦Dentro hay una ranita. Salta fuera y se aleja. ¡Croac!
 65¦Solo un pezzo di vecchia corda.¦Solo un pedazo de cuerda vieja.
 66¦Sotto uno strato di sabbia trovi una piccola chiave di bronzo!¦¡Bajo una capa de arena encuentras una pequeña llave de bronce!
+67¦i nasi sul tuo viso¦las narices en tu cara
+68¦le ruote di una bicicletta¦las ruedas de una bicicleta
+69¦i lati di un triangolo¦los lados de un triángulo
+70¦le zampe di un cane¦las patas de un perro
+71¦le dita di una mano¦los dedos de una mano
+72¦le zampe di un insetto¦las patas de un insecto
+73¦i giorni di una settimana¦los días de una semana
+74¦le zampe di un ragno¦las patas de una araña
+75¦le vite di un gatto¦las vidas de un gato
 76¦Scolpito nella pietra: "Risveglia i cristalli dal più caldo al più freddo."¦Grabado en la piedra: "Despierta los cristales del más cálido al más frío."
+77¦Scolpito nella pietra: "Risveglia i cristalli dal più freddo al più caldo."¦Grabado en la piedra: "Despierta los cristales del más frío al más cálido."
+78¦Scolpito nella pietra: "Risveglia i cristalli in quest'ordine: la foglia, il mare, il fuoco, il sole."¦Grabado en la piedra: "Despierta los cristales en este orden: la hoja, el mar, el fuego, el sol."
+79¦Scolpito nella pietra: "Risveglia i cristalli in quest'ordine: il mare, il sole, la foglia, il fuoco."¦Grabado en la piedra: "Despierta los cristales en este orden: el mar, el sol, la hoja, el fuego."
 80¦La Sala d'Ingresso¦El Vestíbulo de Entrada
 81¦La Sala delle Statue¦La Sala de las Estatuas
 82¦La Galleria delle Leve¦La Galería de las Palancas
 83¦Il Pavimento a Piastrelle¦El Suelo de Baldosas
 84¦La Sala delle Giare¦La Sala de las Jarras
+85¦Scolpito nella pietra: "Conta dalla parete sinistra. La chiave di bronzo dorme nella ¦Grabado en la piedra: "Cuenta desde la pared izquierda. La llave de bronce duerme en la 
+86¦ giara."¦ jarra."
 87¦Il Caveau d'Oro¦La Cámara Dorada
 88¦La Cantina delle Macerie¦La Bodega de los Escombros
 89¦Scolpito nella pietra: "Le cose pesanti vanno spinte, mai tirate."¦Grabado en la piedra: "Las cosas pesadas se empujan, nunca se tiran."
@@ -53,6 +96,7 @@
 95¦La Sala di Ghiaccio¦La Sala de Hielo
 96¦Il pavimento è di ghiaccio puro. Scivoli finché qualcosa non ti ferma.¦El suelo es de hielo macizo. Resbalas hasta que algo te detiene.
 97¦La Porta dei Numeri¦La Puerta de los Números
+98¦Scolpito nella pietra: "Il codice: ¦Grabado en la piedra: "El código: 
 99¦La Sala della Canzone¦La Sala de la Canción
 100¦Il Trono del Sole¦El Trono del Sol
 103¦Diario dell'esploratore¦Diario del explorador
@@ -61,98 +105,118 @@
 106¦Il buco sopra è troppo alto per arrampicarsi. L'unica via d'uscita attraversa il tempio, tra indovinelli, leve e pavimenti insidiosi, e sale le scale verso il sole.¦El agujero de arriba está demasiado alto para trepar. La única salida atraviesa el templo, entre acertijos, palancas y suelos traicioneros, y sube las escaleras hacia el sol.
 107¦Muoviti con le frecce, WASD, i pulsanti o toccando la mappa. Cammina contro le cose per usarle. Qui niente può farti male. Se scivoli, perdi solo un po' di tempo.¦Muévete con las flechas, WASD, los botones o tocando el mapa. Camina hacia las cosas para usarlas. Aquí nada puede hacerte daño. Si resbalas, solo pierdes un poco de tiempo.
 108¦Inizia l'esplorazione¦Empieza a explorar
+109¦Negozio¦Tienda
 110¦Il guardiano parla¦El guardián habla
 111¦La statua parla¦La estatua habla
 113¦Vai via¦Aléjate
-116¦Passi<b>¦Pasos<b>
-117¦Gioca ancora¦Jugar otra vez
-119¦Leggenda del tempio¦Leyenda del templo
-120¦Campione del Sole¦Campeón del Sol
-121¦Esploratore del cielo¦Explorador del cielo
-122¦Sei scappato!¦¡Has escapado!
-123¦Sali i gradini consumati con l'idolo d'oro in un braccio e la Corona del Sole in testa. La luce del sole ti inonda, l'intero tempio emette un lungo, felice rombo e la farfalla dorata ti guida verso casa.¦Subes los escalones gastados con el ídolo de oro en un brazo y la Corona del Sol en la cabeza. La luz del sol te inunda, todo el templo emite un largo y feliz estruendo, y la mariposa dorada te guía hacia casa.
-124¦Ti metti in testa la Corona del Sole e sali le ultime scale verso l'aria aperta. L'intera giungla splende sotto di te, e la farfalla dorata danza attorno alla corona.¦Te pones la Corona del Sol en la cabeza y subes las últimas escaleras hacia el aire libre. Toda la selva brilla bajo tus pies, y la mariposa dorada baila alrededor de la corona.
-125¦Lasci la Corona del Sole sul suo trono e sali le ultime scale verso l'aria aperta. La giungla splende sotto di te, e la farfalla dorata si posa sulla tua spalla.¦Dejas la Corona del Sol en su trono y subes las últimas escaleras hacia el aire libre. La selva brilla bajo tus pies, y la mariposa dorada se posa en tu hombro.
-126¦Cacciatore di tesori¦Cazador de tesoros
-127¦Esploratore saggio¦Explorador sabio
-128¦Sali i gradini consumati con l'idolo d'oro sotto il braccio e spingi un portello di pietra. La luce del sole ti inonda. Gli uccelli cantano. Molto più in basso, il tempio emette un lungo rombo sollevato e tace.¦Subes los escalones gastados con el ídolo de oro bajo el brazo y empujas una trampilla de piedra. La luz del sol te inunda. Los pájaros cantan. Muy abajo, el templo emite un largo estruendo aliviado y se queda en silencio.
-129¦Lasci l'idolo d'oro sul suo piedistallo, perché certi tesori appartengono al loro posto. Le scale finiscono in un portello di pietra. Lo spingi e la luce del sole ti inonda. Gli uccelli cantano, e la farfalla dorata ti aspetta.¦Dejas el ídolo de oro en su pedestal, porque algunos tesoros pertenecen donde están. Las escaleras terminan en una trampilla de piedra. La empujas y la luz del sol te inunda. Los pájaros cantan, y la mariposa dorada te está esperando.
-130¦Segreto: questo tempio ha più cose di quelle che hai visto. Riesci a trovare il piano di sotto?¦Secreto: este templo tiene más de lo que has visto. ¿Puedes encontrar el piso de abajo?
-138¦Il sostegno della torcia ora è vuoto.¦El soporte de la antorcha está vacío ahora.
-139¦Estrai una torcia dal sostegno sul muro. Si accende con una calda luce arancione.¦Sacas una antorcha del soporte de la pared. Se aviva con una cálida luz naranja.
-140¦Una giara di terracotta incrinata. Dentro c'è un biglietto arrotolato: "Accendi una torcia prima di andare più a fondo. Le sale buie nascondono la via."¦Una vasija de barro agrietada. Dentro hay una nota enrollada: "Enciende una antorcha antes de ir más adentro. Las salas oscuras esconden el camino."
-141¦La statua sorride. I suoi occhi brillano di verde.¦La estatua sonríe. Sus ojos brillan en verde.
-143¦Questa giara ora è vuota.¦Esta jarra ya está vacía.
-144¦La pietra della farfalla è già premuta.¦La piedra de la mariposa ya está pulsada.
-145¦Sulla pietra è scolpita una farfalla dorata. La premi. Clic! Una scala nascosta si apre verso l'alto, nella luce delle stelle.¦En la piedra hay grabada una mariposa dorada. La pulsas. ¡Clic! Una escalera oculta se despliega hacia arriba, hacia la luz de las estrellas.
-146¦Clic! I tre quadranti si bloccano al loro posto e la porta a nord si apre.¦¡Clic! Los tres diales encajan en su sitio y la puerta del norte se abre.
-147¦La sfera ora è silenziosa.¦La esfera ahora está en silencio.
-148¦La sfera si illumina e suona una canzone di luci. Guarda bene, poi riproducila sulle piastre.¦La esfera se ilumina y toca una canción de luces. Mira bien y luego repítela en las placas.
-149¦Il trono ora è vuoto.¦El trono ahora está vacío.
-150¦Sollevi la Corona del Sole. È calda e brilla piano. Le scale verso l'aria aperta ti aspettano.¦Levantas la Corona del Sol. Está cálida y brilla suavemente. Las escaleras hacia el aire libre te esperan.
-151¦Un mucchio di pietre cadute blocca il passaggio.¦Un montón de piedras caídas bloquea el paso.
-152¦Un pesante pilastro di pietra.¦Un pesado pilar de piedra.
-153¦Un muro di pietra scolpita. Solo il guardiano può aprirlo.¦Un muro de piedra tallada. Solo el guardián puede abrirlo.
-154¦La piastra è già premuta. La porta è aperta.¦La placa ya está pulsada. La puerta está abierta.
-155¦Premi il pulsante di pietra. Il pesante masso scivola indietro dov'era all'inizio.¦Pulsas el botón de piedra. El pesado bloque se desliza de vuelta a donde empezó.
-156¦Il piedistallo è vuoto.¦El pedestal está vacío.
-157¦Sollevi l'idolo d'oro. L'intero tempio trema e il pavimento comincia a creparsi!¦Levantas el ídolo de oro. ¡Todo el templo tiembla y el suelo empieza a agrietarse!
-158¦Il cristallo brilla con luce ferma.¦El cristal brilla con luz firme.
-159¦Il quarto cristallo si illumina. La porta di pietra scivola aperta con un profondo ronzio.¦El cuarto cristal se ilumina. La puerta de piedra se desliza con un profundo zumbido.
-160¦Ping! Il cristallo si illumina.¦¡Ping! El cristal se ilumina.
-161¦Bzzt! Tutti i cristalli si spengono. Riprova, la targa ha l'indizio.¦¡Bzzt! Todos los cristales se apagan. Inténtalo de nuevo, la placa tiene la pista.
-162¦Le piastre vibrano piano. La porta è aperta.¦Las placas vibran suavemente. La puerta está abierta.
-163¦Tocca prima la sfera luminosa.¦Toca primero la esfera luminosa.
-164¦Prima guarda, poi riproducila.¦Primero mira, luego repítela.
-165¦Din-din-din! La canzone è completa e la porta a nord scivola aperta.¦¡Din-din-din! La canción está completa y la puerta del norte se desliza abierta.
-166¦Nota sbagliata. La sfera suonerà di nuovo la canzone.¦Nota equivocada. La esfera volverá a tocar la canción.
-167¦La pietra non si sposta in quella direzione.¦La piedra no se mueve en esa dirección.
-168¦Clic! La piastra di pietra affonda e la porta a nord si apre con un cigolio.¦¡Clic! La placa de piedra se hunde y la puerta del norte se abre rechinando.
-169¦La leva è già abbassata.¦La palanca ya está bajada.
-170¦La quarta leva scatta giù. Da qualche parte nel muro una catena sferraglia e la porta a nord si apre con un cigolio.¦La cuarta palanca baja con un golpe. En algún lugar de la pared una cadena traquetea y la puerta del norte se abre rechinando.
-171¦Clunk. La leva ¦Clunk. La palanca 
-172¦ resta abbassata.¦ se queda abajo.
-173¦Clic-clic-clic. Tutte le leve tornano su di scatto. Riprova, il mosaico ha l'ordine.¦Clic-clic-clic. Todas las palancas vuelven a subir de golpe. Inténtalo de nuevo, el mural tiene el orden.
-174¦Oltre la porta è buio pesto. Prima ti serve una luce.¦Más allá de la puerta hay oscuridad total. Primero necesitas una luz.
-175¦La porta è sigillata. Quattro statue la sorvegliano. Rispondi a tutti i loro indovinelli.¦La puerta está sellada. Cuatro estatuas la vigilan. Responde a todos sus acertijos.
-176¦La porta di pietra non si muove. Deve esserci un modo per svegliarla.¦La puerta de piedra no se mueve. Debe haber una forma de despertarla.
-177¦La porta è chiusa a chiave. Ti serve una chiave.¦La puerta está cerrada con llave. Necesitas una llave.
-178¦La porta ha tre quadranti numerici. È chiusa ermeticamente.¦La puerta tiene tres diales numéricos. Está bien cerrada.
-179¦La porta è chiusa. Le piastre luminose devono suonare la canzone giusta.¦La puerta está cerrada. Las placas luminosas deben tocar la canción correcta.
-180¦La porta è serrata. Qualcosa di pesante deve stare sulla piastra di pietra.¦La puerta está bien cerrada. Algo pesado debe descansar sobre la placa de piedra.
-181¦Sali la scala segreta. L'aria fresca della notte e la luce delle stelle ti accolgono.¦Subes la escalera secreta. El aire fresco de la noche y la luz de las estrellas te reciben.
-182¦Clic! La piastrella affonda e scivoli all'inizio della sala.¦¡Clic! La baldosa se hunde y resbalas hasta el inicio de la sala.
-183¦Ruzzoli giù in una cantina sotto il tempio. Le macerie sono morbide, quindi non ti fai male. La torcia brucia ancora.¦Caes rodando a una bodega bajo el templo. Los escombros son blandos, así que no te haces daño. Tu antorcha sigue ardiendo.
-184¦Whoosh! Che caldo! Salti indietro all'inizio della sala.¦¡Uf! ¡Qué calor! Saltas de vuelta al inicio de la sala.
-185¦Torcia¦Antorcha
-186¦Chiave di bronzo¦Llave de bronce
-187¦Idolo d'oro¦Ídolo de oro
-188¦Corona del Sole¦Corona del Sol
-189¦Indovinelli ¦Acertijos 
-190¦ su 4¦ de 4
-191¦ su 2¦ de 2
-192¦A mani vuote.¦Con las manos vacías.
-193¦Ti scrolli la polvere di dosso. Trova una luce, poi trova la via d'uscita.¦Te sacudes el polvo. Encuentra una luz, y luego encuentra la salida.
-196¦Esatto! Gli occhi della statua brillano di verde.¦¡Correcto! Los ojos de la estatua brillan en verde.
-197¦Un profondo clic risuona dalla porta a nord. È aperta.¦Un profundo clic resuena desde la puerta del norte. Está abierta.
-198¦Corretto! Il guardiano annuisce. "Ancora una domanda."¦¡Correcto! El guardián asiente. "Una pregunta más."
-199¦Corretto! Il guardiano si inchina e il muro di pietra affonda nel pavimento. La via verso le scale è aperta.¦¡Correcto! El guardián se inclina y el muro de piedra se hunde en el suelo. El camino a las escaleras está abierto.
-200¦Gli occhi della statua tremolano. Non è questa. Riprova, non c'è fretta.¦Los ojos de la estatua parpadean. No es eso. Inténtalo de nuevo, no hay prisa.
-201¦Il guardiano aspetta con pazienza. Riprova, non c'è fretta.¦El guardián espera con paciencia. Inténtalo de nuevo, no hay prisa.
-207¦Passi¦Pasos
-208¦Monete¦Monedas
-209¦Acqua¦Agua
-210¦Tempo¦Tiempo
-211¦Pioggia¦Lluvia
-212¦Il buio¦Oscuridad
-213¦La luce del sole¦Luz del sol
-218¦Sole¦Sol
-219¦Luna¦Luna
-220¦Stella¦Estrella
-221¦Onda¦Ola
-224¦Lingua¦Idioma
-225¦Mappa del gioco¦Mapa del juego
-226¦Vai a nord¦Ir al norte
-227¦Vai a ovest¦Ir al oeste
-228¦Vai a sud¦Ir al sur
-229¦Vai a est¦Ir al este
+117¦Hai guadagnato <b>¦Has ganado <b>
+118¦</b> punti!¦</b> puntos!
+119¦Passi<b>¦Pasos<b>
+120¦Gioca ancora¦Jugar otra vez
+121¦Vai al negozio¦Ir a la tienda
+122¦Leggenda del tempio¦Leyenda del templo
+123¦Campione del Sole¦Campeón del Sol
+124¦Esploratore del cielo¦Explorador del cielo
+125¦Sei scappato!¦¡Has escapado!
+126¦Sali i gradini consumati con l'idolo d'oro in un braccio e la Corona del Sole in testa. La luce del sole ti inonda, l'intero tempio emette un lungo, felice rombo e la farfalla dorata ti guida verso casa.¦Subes los escalones gastados con el ídolo de oro en un brazo y la Corona del Sol en la cabeza. La luz del sol te inunda, todo el templo emite un largo y feliz estruendo, y la mariposa dorada te guía hacia casa.
+127¦Ti metti in testa la Corona del Sole e sali le ultime scale verso l'aria aperta. L'intera giungla splende sotto di te, e la farfalla dorata danza attorno alla corona.¦Te pones la Corona del Sol en la cabeza y subes las últimas escaleras hacia el aire libre. Toda la selva brilla bajo tus pies, y la mariposa dorada baila alrededor de la corona.
+128¦Lasci la Corona del Sole sul suo trono e sali le ultime scale verso l'aria aperta. La giungla splende sotto di te, e la farfalla dorata si posa sulla tua spalla.¦Dejas la Corona del Sol en su trono y subes las últimas escaleras hacia el aire libre. La selva brilla bajo tus pies, y la mariposa dorada se posa en tu hombro.
+129¦Cacciatore di tesori¦Cazador de tesoros
+130¦Esploratore saggio¦Explorador sabio
+131¦Sali i gradini consumati con l'idolo d'oro sotto il braccio e spingi un portello di pietra. La luce del sole ti inonda. Gli uccelli cantano. Molto più in basso, il tempio emette un lungo rombo sollevato e tace.¦Subes los escalones gastados con el ídolo de oro bajo el brazo y empujas una trampilla de piedra. La luz del sol te inunda. Los pájaros cantan. Muy abajo, el templo emite un largo estruendo aliviado y se queda en silencio.
+132¦Lasci l'idolo d'oro sul suo piedistallo, perché certi tesori appartengono al loro posto. Le scale finiscono in un portello di pietra. Lo spingi e la luce del sole ti inonda. Gli uccelli cantano, e la farfalla dorata ti aspetta.¦Dejas el ídolo de oro en su pedestal, porque algunos tesoros pertenecen donde están. Las escaleras terminan en una trampilla de piedra. La empujas y la luz del sol te inunda. Los pájaros cantan, y la mariposa dorada te está esperando.
+133¦Segreto: questo tempio ha più cose di quelle che hai visto. Riesci a trovare il piano di sotto?¦Secreto: este templo tiene más de lo que has visto. ¿Puedes encontrar el piso de abajo?
+134¦Vesti il tuo esploratore¦Viste a tu explorador
+135¦I tuoi punti: <b>¦Tus puntos: <b>
+136¦Batti il gioco per guadagnare altri punti.¦Supera el juego para ganar más puntos.
+139¦ pt¦ pts
+140¦Fatto¦Listo
+141¦Il sostegno della torcia ora è vuoto.¦El soporte de la antorcha está vacío ahora.
+142¦Estrai una torcia dal sostegno sul muro. Si accende con una calda luce arancione.¦Sacas una antorcha del soporte de la pared. Se aviva con una cálida luz naranja.
+143¦Una giara di terracotta incrinata. Dentro c'è un biglietto arrotolato: "Accendi una torcia prima di andare più a fondo. Le sale buie nascondono la via."¦Una vasija de barro agrietada. Dentro hay una nota enrollada: "Enciende una antorcha antes de ir más adentro. Las salas oscuras esconden el camino."
+144¦La statua sorride. I suoi occhi brillano di verde.¦La estatua sonríe. Sus ojos brillan en verde.
+145¦Un mosaico sbiadito mostra quattro segni in fila. Sotto c'è scritto: "Risvegliali in quest'ordine."¦Un mural desvaído muestra cuatro signos en fila. Debajo dice: "Despiértalos en este orden."
+146¦Questa giara ora è vuota.¦Esta jarra ya está vacía.
+147¦La pietra della farfalla è già premuta.¦La piedra de la mariposa ya está pulsada.
+148¦Sulla pietra è scolpita una farfalla dorata. La premi. Clic! Una scala nascosta si apre verso l'alto, nella luce delle stelle.¦En la piedra hay grabada una mariposa dorada. La pulsas. ¡Clic! Una escalera oculta se despliega hacia arriba, hacia la luz de las estrellas.
+149¦Clic! I tre quadranti si bloccano al loro posto e la porta a nord si apre.¦¡Clic! Los tres diales encajan en su sitio y la puerta del norte se abre.
+150¦La sfera ora è silenziosa.¦La esfera ahora está en silencio.
+151¦La sfera si illumina e suona una canzone di luci. Guarda bene, poi riproducila sulle piastre.¦La esfera se ilumina y toca una canción de luces. Mira bien y luego repítela en las placas.
+152¦Il trono ora è vuoto.¦El trono ahora está vacío.
+153¦Sollevi la Corona del Sole. È calda e brilla piano. Le scale verso l'aria aperta ti aspettano.¦Levantas la Corona del Sol. Está cálida y brilla suavemente. Las escaleras hacia el aire libre te esperan.
+154¦Un mucchio di pietre cadute blocca il passaggio.¦Un montón de piedras caídas bloquea el paso.
+155¦Un pesante pilastro di pietra.¦Un pesado pilar de piedra.
+156¦Un muro di pietra scolpita. Solo il guardiano può aprirlo.¦Un muro de piedra tallada. Solo el guardián puede abrirlo.
+157¦La piastra è già premuta. La porta è aperta.¦La placa ya está pulsada. La puerta está abierta.
+158¦Premi il pulsante di pietra. Il pesante masso scivola indietro dov'era all'inizio.¦Pulsas el botón de piedra. El pesado bloque se desliza de vuelta a donde empezó.
+159¦Il piedistallo è vuoto.¦El pedestal está vacío.
+160¦Sollevi l'idolo d'oro. L'intero tempio trema e il pavimento comincia a creparsi!¦Levantas el ídolo de oro. ¡Todo el templo tiembla y el suelo empieza a agrietarse!
+161¦Il cristallo brilla con luce ferma.¦El cristal brilla con luz firme.
+162¦Il quarto cristallo si illumina. La porta di pietra scivola aperta con un profondo ronzio.¦El cuarto cristal se ilumina. La puerta de piedra se desliza con un profundo zumbido.
+163¦Ping! Il cristallo si illumina.¦¡Ping! El cristal se ilumina.
+164¦Bzzt! Tutti i cristalli si spengono. Riprova, la targa ha l'indizio.¦¡Bzzt! Todos los cristales se apagan. Inténtalo de nuevo, la placa tiene la pista.
+165¦Le piastre vibrano piano. La porta è aperta.¦Las placas vibran suavemente. La puerta está abierta.
+166¦Tocca prima la sfera luminosa.¦Toca primero la esfera luminosa.
+167¦Prima guarda, poi riproducila.¦Primero mira, luego repítela.
+168¦Din-din-din! La canzone è completa e la porta a nord scivola aperta.¦¡Din-din-din! La canción está completa y la puerta del norte se desliza abierta.
+169¦Nota sbagliata. La sfera suonerà di nuovo la canzone.¦Nota equivocada. La esfera volverá a tocar la canción.
+170¦La pietra non si sposta in quella direzione.¦La piedra no se mueve en esa dirección.
+171¦Clic! La piastra di pietra affonda e la porta a nord si apre con un cigolio.¦¡Clic! La placa de piedra se hunde y la puerta del norte se abre rechinando.
+172¦La leva è già abbassata.¦La palanca ya está bajada.
+173¦La quarta leva scatta giù. Da qualche parte nel muro una catena sferraglia e la porta a nord si apre con un cigolio.¦La cuarta palanca baja con un golpe. En algún lugar de la pared una cadena traquetea y la puerta del norte se abre rechinando.
+174¦Clunk. La leva ¦Clunk. La palanca 
+175¦ resta abbassata.¦ se queda abajo.
+176¦Clic-clic-clic. Tutte le leve tornano su di scatto. Riprova, il mosaico ha l'ordine.¦Clic-clic-clic. Todas las palancas vuelven a subir de golpe. Inténtalo de nuevo, el mural tiene el orden.
+177¦Oltre la porta è buio pesto. Prima ti serve una luce.¦Más allá de la puerta hay oscuridad total. Primero necesitas una luz.
+178¦La porta è sigillata. Quattro statue la sorvegliano. Rispondi a tutti i loro indovinelli.¦La puerta está sellada. Cuatro estatuas la vigilan. Responde a todos sus acertijos.
+179¦La porta di pietra non si muove. Deve esserci un modo per svegliarla.¦La puerta de piedra no se mueve. Debe haber una forma de despertarla.
+180¦La porta è chiusa a chiave. Ti serve una chiave.¦La puerta está cerrada con llave. Necesitas una llave.
+181¦La porta ha tre quadranti numerici. È chiusa ermeticamente.¦La puerta tiene tres diales numéricos. Está bien cerrada.
+182¦La porta è chiusa. Le piastre luminose devono suonare la canzone giusta.¦La puerta está cerrada. Las placas luminosas deben tocar la canción correcta.
+183¦La porta è serrata. Qualcosa di pesante deve stare sulla piastra di pietra.¦La puerta está bien cerrada. Algo pesado debe descansar sobre la placa de piedra.
+184¦Sali la scala segreta. L'aria fresca della notte e la luce delle stelle ti accolgono.¦Subes la escalera secreta. El aire fresco de la noche y la luz de las estrellas te reciben.
+185¦Clic! La piastrella affonda e scivoli all'inizio della sala.¦¡Clic! La baldosa se hunde y resbalas hasta el inicio de la sala.
+186¦Ruzzoli giù in una cantina sotto il tempio. Le macerie sono morbide, quindi non ti fai male. La torcia brucia ancora.¦Caes rodando a una bodega bajo el templo. Los escombros son blandos, así que no te haces daño. Tu antorcha sigue ardiendo.
+187¦Whoosh! Che caldo! Salti indietro all'inizio della sala.¦¡Uf! ¡Qué calor! Saltas de vuelta al inicio de la sala.
+189¦Torcia¦Antorcha
+190¦Chiave di bronzo¦Llave de bronce
+191¦Idolo d'oro¦Ídolo de oro
+192¦Corona del Sole¦Corona del Sol
+193¦Indovinelli ¦Acertijos 
+194¦ su 4¦ de 4
+195¦ su 2¦ de 2
+196¦A mani vuote.¦Con las manos vacías.
+197¦Ti scrolli la polvere di dosso. Trova una luce, poi trova la via d'uscita.¦Te sacudes el polvo. Encuentra una luz, y luego encuentra la salida.
+198¦Acquistato! Stai benissimo.¦¡Comprado! Te queda genial.
+199¦Non hai ancora abbastanza punti. Batti il gioco per guadagnarne altri!¦Aún no tienes suficientes puntos. ¡Supera el juego para ganar más!
+200¦Esatto! Gli occhi della statua brillano di verde.¦¡Correcto! Los ojos de la estatua brillan en verde.
+201¦Un profondo clic risuona dalla porta a nord. È aperta.¦Un profundo clic resuena desde la puerta del norte. Está abierta.
+202¦Corretto! Il guardiano annuisce. "Ancora una domanda."¦¡Correcto! El guardián asiente. "Una pregunta más."
+203¦Corretto! Il guardiano si inchina e il muro di pietra affonda nel pavimento. La via verso le scale è aperta.¦¡Correcto! El guardián se inclina y el muro de piedra se hunde en el suelo. El camino a las escaleras está abierto.
+204¦Gli occhi della statua tremolano. Non è questa. Riprova, non c'è fretta.¦Los ojos de la estatua parpadean. No es eso. Inténtalo de nuevo, no hay prisa.
+205¦Il guardiano aspetta con pazienza. Riprova, non c'è fretta.¦El guardián espera con paciencia. Inténtalo de nuevo, no hay prisa.
+206¦Niente¦Nada
+207¦Zaino¦Mochila
+208¦Cappelli¦Sombreros
+209¦Giacche¦Chaquetas
+210¦Schiena¦Espalda
+211¦Passi¦Pasos
+212¦Monete¦Monedas
+213¦Acqua¦Agua
+214¦Tempo¦Tiempo
+215¦Pioggia¦Lluvia
+216¦Il buio¦Oscuridad
+217¦La luce del sole¦Luz del sol
+220¦Indossato¦Puesto
+221¦Indossa¦Ponerse
+222¦Sole¦Sol
+223¦Luna¦Luna
+224¦Stella¦Estrella
+225¦Onda¦Ola
+227¦Suono¦Sonido
+228¦Lingua¦Idioma
+229¦Mappa del gioco¦Mapa del juego
+230¦Vai a nord¦Ir al norte
+231¦Vai a ovest¦Ir al oeste
+232¦Vai a sud¦Ir al sur
+233¦Vai a est¦Ir al este
