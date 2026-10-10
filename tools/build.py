@@ -18,6 +18,9 @@ extra={
  # words the game builds from code (directions, colours...) that are not whole sentences: 'north':('nord','norte'),
  'Language':('Lingua','Idioma'),
  'Riddle':('Indovinello','Acertijo'),
+ 'Skin':('Pelle','Piel'),
+ 'first':('prima','primera'),'second':('seconda','segunda'),'third':('terza','tercera'),'fourth':('quarta','cuarta'),'fifth':('quinta','quinta'),'sixth':('sesta','sexta'),
+
  'Ding!':('Din!','¡Din!'),
  'Slips<b>':('Scivoloni<b>','Resbalones<b>'),
 }
