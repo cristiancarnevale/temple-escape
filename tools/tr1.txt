@@ -1,3 +1,26 @@
-114¦Poi, TWIP! Qualcosa di piccolo ti punge il collo. Un dardo tranquillante! Le gambe ti tremano, la luce del sole si sfoca e tutto diventa morbido e sonnolento. Non preoccuparti, è solo un dardo sonnifero.¦Entonces, ¡ZAS! Algo pequeño te pica en el cuello. ¡Un dardo tranquilizante! Te tiemblan las piernas, la luz del sol se desenfoca y todo se vuelve suave y adormilado. No te preocupes, es solo un dardo para dormir.
-115¦La seconda parte arriverà presto¦La segunda parte llegará pronto
-116¦Mentre dormi, un enorme caveau ti aspetta in un'altra parte del tempio, chiuso con dieci codici segreti.¦Mientras duermes, una enorme cámara acorazada te espera en otra parte del templo, cerrada con diez códigos secretos.
+101¦La Cella Sonnolenta¦La Celda Adormilada
+102¦Scolpito nella pietra: "Bentornato, esploratore. L'enorme caveau è la via d'uscita."¦Grabado en la piedra: "Bienvenido de nuevo, explorador. La enorme cámara acorazada es la salida."
+103¦La Sala del Caveau¦La Sala de la Cámara Acorazada
+104¦Scolpito nella pietra: "Ogni sala attorno al caveau custodisce un numero segreto. Portali tutti al caveau."¦Grabado en la piedra: "Cada sala alrededor de la cámara acorazada guarda un número secreto. Llévalos todos a la cámara."
+105¦La Sala delle Lanterne¦La Sala de las Linternas
+106¦La Sala dell'Eco¦La Sala del Eco
+107¦Scolpito nella pietra: "Suona le campane dalla più grande alla più piccola."¦Grabado en la piedra: "Toca las campanas de la más grande a la más pequeña."
+108¦Scolpito nella pietra: "Suona le campane dalla più piccola alla più grande."¦Grabado en la piedra: "Toca las campanas de la más pequeña a la más grande."
+123¦Inizia la seconda parte¦Empieza la segunda parte
+128¦Svegliati nella seconda parte¦Despierta en la segunda parte
+163¦La lanterna è già accesa.¦La linterna ya está encendida.
+164¦Ti serve una fiamma per accenderla.¦Necesitas una llama para encenderla.
+165¦La terza lanterna si accende con un guizzo. Sul muro compare un numero luminoso!¦¡La tercera linterna se enciende de golpe! En la pared aparece un número luminoso.
+166¦La lanterna brilla calda.¦La linterna brilla cálida.
+167¦La campana suona piano.¦La campana suena suavemente.
+168¦L'ultima campana risuona. Sul muro compare un numero luminoso!¦La última campana resuena. ¡En la pared aparece un número luminoso!
+169¦Clang! Le campane tacciono. Nessun problema, ricomincia.¦¡Clang! Las campanas callan. No pasa nada, empieza de nuevo.
+200¦Ti svegli sulla pietra fredda in un'altra parte del tempio. La testa è un po' confusa, ma stai bene.¦Despiertas sobre la piedra fría en otra parte del templo. Tienes la cabeza algo confusa, pero estás bien.
+201¦L'enorme caveau¦La enorme cámara acorazada
+202¦Imposta ogni quadrante sul numero della sua sala. Se hai già visto un numero, è scritto qui per te.¦Pon cada dial en el número de su sala. Si ya has visto un número, está escrito aquí para ti.
+204¦Hai visto il numero ¦Has visto el número 
+205¦Seconda parte¦Segunda parte
+206¦Il caveau si apre!¦¡La cámara acorazada se abre!
+207¦Ogni quadrante scatta al suo posto. CLUNK! L'enorme porta del caveau si spalanca e la luce del sole entra a fiotti. Sei scappato dalla seconda parte!¦Cada dial encaja en su sitio. ¡CLUNK! La enorme puerta de la cámara se abre de par en par y la luz del sol entra a raudales. ¡Has escapado de la segunda parte!
+217¦Codici ¦Códigos 
+218¦ su 10¦ de 10
