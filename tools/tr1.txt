@@ -1,35 +1,9 @@
-101¦Scolpito nella pietra: "Gira ogni statua verso nord."¦Grabado en la piedra: "Gira cada estatua hacia el norte."
-102¦Scolpito nella pietra: "Gira ogni statua verso est."¦Grabado en la piedra: "Gira cada estatua hacia el este."
-103¦Scolpito nella pietra: "Gira ogni statua verso sud."¦Grabado en la piedra: "Gira cada estatua hacia el sur."
-104¦Scolpito nella pietra: "Gira ogni statua verso ovest."¦Grabado en la piedra: "Gira cada estatua hacia el oeste."
-105¦Scolpito nella pietra: "Il numero si nasconde dietro il libro rosso."¦Grabado en la piedra: "El número se esconde tras el libro rojo."
-106¦Scolpito nella pietra: "Il numero si nasconde dietro il libro blu."¦Grabado en la piedra: "El número se esconde tras el libro azul."
-107¦Scolpito nella pietra: "Il numero si nasconde dietro il libro verde."¦Grabado en la piedra: "El número se esconde tras el libro verde."
-108¦Scolpito nella pietra: "Il numero si nasconde dietro il libro viola."¦Grabado en la piedra: "El número se esconde tras el libro morado."
-109¦Scolpito nella pietra: "Il numero si nasconde dietro il libro giallo."¦Grabado en la piedra: "El número se esconde tras el libro amarillo."
-113¦Scolpito nella pietra: "Dieci sale circondano il caveau. Ognuna custodisce un numero segreto. Portali tutti al caveau."¦Grabado en la piedra: "Diez salas rodean la cámara acorazada. Cada una guarda un número secreto. Llévalos todos a la cámara."
-118¦Il Giardino delle Statue¦El Jardín de las Estatuas
-119¦La Sala della Notte¦La Sala de la Noche
-120¦La Sala della Sabbia¦La Sala de la Arena
-121¦Scolpito nella pietra: "Scava nella ¦Grabado en la piedra: "Cava en la 
-122¦ pila da sinistra."¦ pila desde la izquierda."
-123¦La Sala dei Numeri¦La Sala de los Números
-124¦Scolpito nella pietra: "Imposta il quadrante sul numero di stelle sul muro."¦Grabado en la piedra: "Pon el dial en el número de estrellas de la pared."
-125¦La Sala dei Colori¦La Sala de los Colores
-126¦Scolpito nella pietra: "Calpesta le piastre colorate nell'ordine mostrato sul muro."¦Grabado en la piedra: "Pisa las placas de colores en el orden que muestra la pared."
-127¦La Sala Buia¦La Sala Oscura
-128¦Qui è buio pesto. Qualcosa brilla piano, da qualche parte.¦Aquí está muy oscuro. Algo brilla suavemente, en algún lugar.
-129¦La Sala dello Scivolo¦La Sala del Resbalón
-130¦La Biblioteca Nascosta¦La Biblioteca Oculta
-185¦Cinque lampade sono dipinte sul muro. Accendi le lampade qui sotto per farle uguali.¦Cinco lámparas están pintadas en la pared. Enciende las lámparas de abajo para que sean iguales.
-186¦Hai già scavato qui.¦Ya has cavado aquí.
-187¦Sotto la sabbia trovi una pietra luminosa!¦¡Bajo la arena encuentras una piedra luminosa!
-188¦Solo sabbia.¦Solo arena.
-189¦La piastra vibra piano.¦La placa vibra suavemente.
-190¦Bzzt! Non è questa. Nessun problema, ricomincia dal primo colore.¦¡Bzzt! Esa no es. No pasa nada, empieza de nuevo desde el primer color.
-191¦Dietro il libro c'è una pietra luminosa!¦¡Detrás del libro hay una piedra luminosa!
-192¦Solo polvere e vecchie pagine.¦Solo polvo y páginas viejas.
-195¦La terza lanterna si accende con un guizzo.¦La tercera linterna se enciende de golpe.
-198¦L'ultima campana risuona.¦La última campana resuena.
-231¦Sul muro compare un numero luminoso!¦¡En la pared aparece un número luminoso!
-232¦Il ghiaccio si scioglie in semplice pietra.¦El hielo se derrite y queda piedra normal.
+138¦Esploratore: <b id="pn"> </b>¦Explorador: <b id="pn"> </b>
+140¦Vai direttamente alla seconda parte¦Ir directo a la segunda parte
+142¦Non sei tu?¦¿No eres tú?
+143¦Chi sei?¦¿Quién eres?
+144¦Scrivi il tuo nome. I tuoi punti e i tuoi vestiti vengono salvati con il tuo nome.¦Escribe tu nombre. Tus puntos y tu ropa se guardan con tu nombre.
+145¦Oppure scegli un esploratore:¦O elige un explorador:
+146¦Sono io¦Soy yo
+147¦Annulla¦Cancelar
+248¦Gioca di nuovo la seconda parte¦Jugar otra vez la segunda parte
