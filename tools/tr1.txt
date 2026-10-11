@@ -1,7 +1,44 @@
-137¦Il sentiero si torce come un serpente. Trova la strada verso nord al buio.¦El sendero se retuerce como una serpiente. Encuentra el camino hacia el norte en la oscuridad.
-138¦Il fiume è profondo. Salta sulle pietre per attraversarlo. Alcune pietre affondano per un momento, quindi guardale bene.¦El río es profundo. Salta por las piedras para cruzarlo. Algunas piedras se hunden un momento, así que míralas bien.
-146¦Scritto su un palo coperto di muschio: "A ovest c'è il fiume. A est c'è la palude. A sud c'è il vecchio albero. A nord si nasconde qualcosa."¦Escrito en un poste cubierto de musgo: "Al oeste está el río. Al este está el pantano. Al sur está el árbol viejo. Algo se esconde en el norte."
-153¦Il sentiero intricato¦El sendero enredado
-226¦La chiave del pilota vibra e brilla. Le liane si aprono e un sentiero porta a nord!¦La llave del piloto vibra y brilla. ¡Las lianas se apartan y un sendero lleva al norte!
-227¦Fitte liane bloccano la strada a nord. Non si muovono.¦Unas lianas espesas bloquean el camino al norte. No se mueven.
-291¦Splash! La pietra è affondata. Torni a nuoto sulla riva. Nessun danno.¦¡Splash! La piedra se hundió. Vuelves nadando a la orilla. No pasa nada.
+137¦Grandi onde risalgono la spiaggia. Guarda le frecce di schiuma ai bordi.¦Grandes olas suben por la playa. Mira las flechas de espuma en los bordes.
+138¦In questa stanza i ricci di mare spuntano e rientrano. Scegli bene il momento.¦En esta sala los erizos de mar salen y se esconden. Elige bien el momento.
+139¦Attenzione! Nella sabbia ci sono pozze profonde.¦¡Cuidado! En la arena hay pozas profundas escondidas.
+149¦Hai trovato un paio di remi!¦¡Has encontrado un par de remos!
+150¦Hai trovato una grande vela bianca!¦¡Has encontrado una gran vela blanca!
+151¦Hai trovato una bussola di ottone!¦¡Has encontrado una brújula de latón!
+160¦La grotta della cascata¦La cueva de la cascada
+161¦Le rovine delle scimmie¦Las ruinas de los monos
+162¦Il giardino sommerso¦El jardín hundido
+163¦Un cartello rotto dice: "A ovest c'è la barriera. A est c'è la baia dei pirati. A sud c'è il faro. A nord c'è ciò che i vecchi pescatori hanno nascosto."¦Un cartel roto dice: "Al oeste está el arrecife. Al este está la cala pirata. Al sur está el faro. Al norte está lo que los viejos pescadores escondieron."
+164¦Un cartello sbiadito dice: "Vecchio molo. Per una barca servono remi e una vela."¦Un cartel descolorido dice: "Muelle viejo. Un bote necesita remos y una vela."
+165¦La spiaggia dello schianto¦La playa del choque
+166¦La barriera corallina¦El arrecife de coral
+167¦La baia dei pirati¦La cala de los piratas
+168¦Il faro¦El faro
+169¦Il labirinto di mangrovie¦El laberinto de manglares
+170¦Il vecchio molo¦El muelle viejo
+182¦Vai subito alla Parte Quattro¦Ir directo a la Parte Cuatro
+239¦Si apre un pannello segreto nel muro del faro. Dentro c'è una bussola di ottone!¦Se abre un panel secreto en la pared del faro. ¡Dentro hay una brújula de latón!
+251¦Una porta nascosta scivola via nel muro. Dentro c'è un'elica!¦Una puerta oculta se desliza en la pared. ¡Dentro hay una hélice!
+252¦Un portello segreto si apre. Dentro c'è una grande vela bianca!¦Una compuerta secreta se abre. ¡Dentro hay una gran vela blanca!
+253¦Il vecchio aereo è un relitto fumante. Non volerà mai più. Ti serve una barca!¦El viejo avión es un naufragio humeante. Nunca volverá a volar. ¡Necesitas un bote!
+254¦La bussola gira e punta a nord. Le grosse radici si aprono!¦La brújula gira y apunta al norte. ¡Las gruesas raíces se apartan!
+255¦Un groviglio di radici di mangrovia blocca la strada a nord. Non si muovono.¦Un enredo de raíces de manglar bloquea el camino al norte. No se mueven.
+256¦Ora il baule è vuoto.¦Ahora el cofre está vacío.
+257¦Apri il vecchio baule. Dentro c'è un mango d'oro luccicante! Hai guadagnato 20 punti bonus.¦Abres el viejo cofre. ¡Dentro hay un mango dorado brillante! Has ganado 20 puntos extra.
+258¦Spingi la barca fuori dal molo. La vela si gonfia di vento!¦Empujas el bote fuera del muelle. ¡La vela se llena de viento!
+259¦La barca non ha remi. Cerca vicino alla barriera.¦El bote no tiene remos. Busca cerca del arrecife.
+260¦L'albero non ha la vela. Forse i pirati ne hanno nascosta una.¦El mástil no tiene vela. Quizá los piratas escondieron una.
+315¦Il motore ruggisce e il vecchio aereo sale alto sopra la giungla verde. Poi tossisce e singhiozza. Fumo! Plani giù e atterri di botto su una spiaggia sabbiosa. Non ti sei fatto male, ma l'aereo non vola più.¦El motor ruge y el viejo avión sube alto sobre la selva verde. Pero entonces tose y se atasca. ¡Humo! Planeas hacia abajo y aterrizas de golpe en una playa de arena. No te has hecho daño, pero el avión ya no vuela más.
+316¦Continua con la Parte Quattro¦Continuar con la Parte Cuatro
+318¦CRASH! Rotoli fuori dall'aereo rotto su una spiaggia sabbiosa. Non ti sei fatto male, ma l'aereo non volerà mai più.¦¡CRASH! Sales rodando del avión roto a una playa de arena. No te has hecho daño, pero el avión nunca volverá a volar.
+319¦Forse puoi trovare una barca per scappare da quest'isola. Guardati intorno!¦Quizá puedas encontrar un bote para escapar de esta isla. ¡Mira a tu alrededor!
+320¦Parte quattro¦Parte cuatro
+321¦Parti navigando!¦¡Te alejas navegando!
+322¦Spingi la barca nel mare azzurro e luminoso. Il vento gonfia la vela e l'isola diventa sempre più piccola. Da qualche parte più avanti ti aspetta casa. Questa volta sei scappato davvero!¦Empujas el bote hacia el mar azul y brillante. El viento llena la vela y la isla se hace cada vez más pequeña. En algún lugar más adelante te espera el hogar. ¡Esta vez has escapado de verdad!
+323¦Gioca di nuovo la Parte Quattro¦Jugar otra vez la Parte Cuatro
+325¦Splash! Cadi in una pozza profonda e esci vicino alla porta. Nessun danno.¦¡Splash! Caes en una poza profunda y sales junto a la puerta. No pasa nada.
+333¦Splash! Una grossa onda ti spinge indietro verso la porta. Nessun danno.¦¡Splash! Una gran ola te empuja hacia la puerta. No pasa nada.
+334¦Whump! Un tronco ti spinge indietro verso la porta. Nessun danno.¦¡Whump! Un tronco te empuja hacia la puerta. No pasa nada.
+336¦Ahi! Un riccio di mare ti punge. Torni indietro verso la porta.¦¡Ay! Un erizo de mar te pincha. Vuelves saltando a la puerta.
+372¦Remi¦Remos
+373¦Vela¦Vela
+374¦Bussola¦Brújula
