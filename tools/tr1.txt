@@ -1,32 +1,7 @@
-137¦Il fiume è profondo. Salta sulle pietre per attraversarlo. Se cadi in acqua, torni solo a nuoto sulla riva.¦El río es profundo. Salta por las piedras para cruzarlo. Si te caes, solo vuelves nadando a la orilla.
-138¦Attenzione! In questa palude ci sono buche di fango.¦¡Cuidado! En este pantano hay hoyos de barro.
-139¦Rumble! In questa stanza rotolano dei tronchi. Guarda le frecce ai bordi.¦¡Rumble! En esta sala ruedan troncos. Mira las flechas de los bordes.
-140¦Tanica di benzina¦Bidón de gasolina
-141¦Hai trovato una tanica di benzina per l'aereo!¦¡Has encontrado un bidón de gasolina para el avión!
-142¦Hai trovato un'elica! È un po' infangata, ma gira.¦¡Has encontrado una hélice! Está un poco embarrada, pero gira.
-143¦Chiave del pilota¦Llave del piloto
-144¦Hai trovato la chiave del pilota!¦¡Has encontrado la llave del piloto!
-145¦Scritto su un palo coperto di muschio: "A ovest c'è il fiume. A est c'è la palude. A sud c'è il vecchio albero. A nord c'è la pista."¦Escrito en un poste cubierto de musgo: "Al oeste está el río. Al este está el pantano. Al sur está el árbol viejo. Al norte está la pista."
-146¦Un cartello arrugginito dice: "Pista di atterraggio. Questo aereo ha bisogno di tre cose: benzina, un'elica e una chiave."¦Un cartel oxidado dice: "Pista de aterrizaje. Este avión necesita tres cosas: gasolina, una hélice y una llave."
-147¦La radura della giungla¦El claro de la selva
-148¦La riva del fiume¦La orilla del río
-149¦La palude delle rane¦El pantano de las ranas
-150¦Il vecchio albero¦El árbol viejo
-151¦La vecchia pista¦La vieja pista
-162¦Vai subito alla Parte Tre¦Ir directo a la Parte Tres
-223¦Sulla corteccia sono dipinti cinque funghi. Toccando un fungo, cambia lui e i suoi due vicini. Copia il disegno.¦En la corteza hay cinco hongos pintados. Al tocar un hongo, cambia él y sus dos vecinos. Copia el dibujo.
-224¦Sali a bordo e giri la chiave. Il motore tossisce e poi ruggisce!¦Subes y giras la llave. ¡El motor tose y luego ruge!
-225¦Il serbatoio è vuoto. Cerca una tanica di benzina.¦El tanque está vacío. Busca un bidón de gasolina.
-226¦Il muso non ha l'elica. Forse qualcuno l'ha persa nella palude.¦La nariz no tiene hélice. Quizá alguien la perdió en el pantano.
-227¦Nella cabina serve una chiave. Un albero cavo potrebbe tenerne una al sicuro.¦En la cabina hace falta una llave. Un árbol hueco podría guardar una a salvo.
-275¦Nella giungla: Parte Tre¦A la selva: Parte Tres
-277¦Esci dal caveau in una giungla calda e fitta. Da qualche parte c'è un aereo che può portarti a casa.¦Sales de la bóveda a una selva cálida y espesa. En algún lugar hay un avión que puede llevarte a casa.
-278¦Un aereo ha bisogno di benzina, un'elica e una chiave. Guardati intorno!¦Un avión necesita gasolina, una hélice y una llave. ¡Mira a tu alrededor!
-279¦Clic! Dentro l'albero si apre una cavità e dentro luccica una chiave!¦¡Clic! Dentro del árbol se abre un hueco y dentro brilla una llave!
-280¦Parte tre¦Parte tres
-281¦L'aereo decolla!¦¡El avión despega!
-282¦Il motore ruggisce e il vecchio aereo corre sulla pista. Su, su, sopra la giungla verde, oltre il tempio d'oro che brilla al sole, fino a casa. Sei scappato dalla giungla!¦El motor ruge y el viejo avión rueda por la pista. Arriba, arriba, sobre la selva verde, junto al templo dorado que brilla al sol, hasta llegar a casa. ¡Has escapado de la selva!
-283¦Gioca di nuovo la Parte Tre¦Jugar otra vez la Parte Tres
-284¦Splash! Cadi nel fiume e torni a nuoto sulla riva. Nessun danno.¦¡Splash! Te caes al río y vuelves nadando a la orilla. No pasa nada.
-285¦Splop! Affondi nel fango e esci vicino alla porta. Nessun danno.¦¡Splop! Te hundes en el barro y sales junto a la puerta. No pasa nada.
-326¦Elica¦Hélice
+137¦Il sentiero si torce come un serpente. Trova la strada verso nord al buio.¦El sendero se retuerce como una serpiente. Encuentra el camino hacia el norte en la oscuridad.
+138¦Il fiume è profondo. Salta sulle pietre per attraversarlo. Alcune pietre affondano per un momento, quindi guardale bene.¦El río es profundo. Salta por las piedras para cruzarlo. Algunas piedras se hunden un momento, así que míralas bien.
+146¦Scritto su un palo coperto di muschio: "A ovest c'è il fiume. A est c'è la palude. A sud c'è il vecchio albero. A nord si nasconde qualcosa."¦Escrito en un poste cubierto de musgo: "Al oeste está el río. Al este está el pantano. Al sur está el árbol viejo. Algo se esconde en el norte."
+153¦Il sentiero intricato¦El sendero enredado
+226¦La chiave del pilota vibra e brilla. Le liane si aprono e un sentiero porta a nord!¦La llave del piloto vibra y brilla. ¡Las lianas se apartan y un sendero lleva al norte!
+227¦Fitte liane bloccano la strada a nord. Non si muovono.¦Unas lianas espesas bloquean el camino al norte. No se mueven.
+291¦Splash! La pietra è affondata. Torni a nuoto sulla riva. Nessun danno.¦¡Splash! La piedra se hundió. Vuelves nadando a la orilla. No pasa nada.
