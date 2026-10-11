@@ -490,7 +490,7 @@ function door(top){
   arrive()
 }
 function startP2(){closeCard();S.over=false;S.p2.on=true;S.room=15;S.x=7;S.y=8;S.face=1;S.land={t:T};sfx('land');$('log').innerHTML='';say('You wake up on cold stone in another part of the temple. Your head is a little fuzzy, but you feel fine.');hud()}
-function p2got(i){if(S.p2.have[i])return;S.p2.have[i]=true;ROOMS[17+i].obj.forEach(function(q){if(q.t==='glyph')q.gone=false;if(q.t==='spark')q.gone=true});setTimeout(function(){sfx('secret')},200);say('A glowing number appears on the wall!');if(i===8){ROOMS[25].ice=false;say('The ice melts away into plain stone.')}hud()}
+function p2got(i){if(S.p2.have[i])return;S.p2.have[i]=true;ROOMS[17+i].obj.forEach(function(q){if(q.t==='glyph')q.gone=false;if(q.t==='spark')q.gone=true});setTimeout(function(){sfx('secret')},200);say('A glowing number appears on the wall!');if(i===8){ROOMS[25].ice=false;ROOMS[25].floor='#8f8a80';ROOMS[25].wall='#5a5750';say('The ice melts away into plain stone.')}hud()}
 function vaultCard(){
   var h='<div class="kicker">The Vault Room</div><h2>The giant vault</h2><p>Set each dial to the number from its room. If you have seen a number already, it is written here for you.</p><div class="vgrid">';
   for(var i=0;i<P2N;i++)h+='<div class="vrow"><span>'+ROOMS[17+i].name+'</span><button data-act="vd" data-i="'+i+'" aria-label="Dial">'+S.p2.dial[i]+'</button>'+(S.p2.have[i]?'<span class="muted">You saw the number '+W.p2.dig[i]+'</span>':'')+'</div>';
