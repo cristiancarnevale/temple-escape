@@ -1,9 +1,27 @@
-138¦Esploratore: <b id="pn"> </b>¦Explorador: <b id="pn"> </b>
-140¦Vai direttamente alla seconda parte¦Ir directo a la segunda parte
-142¦Non sei tu?¦¿No eres tú?
-143¦Chi sei?¦¿Quién eres?
-144¦Scrivi il tuo nome. I tuoi punti e i tuoi vestiti vengono salvati con il tuo nome.¦Escribe tu nombre. Tus puntos y tu ropa se guardan con tu nombre.
-145¦Oppure scegli un esploratore:¦O elige un explorador:
-146¦Sono io¦Soy yo
-147¦Annulla¦Cancelar
-248¦Gioca di nuovo la seconda parte¦Jugar otra vez la segunda parte
+101¦Scolpito nella pietra: "Gira ogni statua verso nord. Attenzione: ogni statua trascina con sé la sua vicina."¦Grabado en la piedra: "Gira cada estatua hacia el norte. Pero cuidado: cada estatua arrastra a su vecina."
+102¦Scolpito nella pietra: "Gira ogni statua verso est. Attenzione: ogni statua trascina con sé la sua vicina."¦Grabado en la piedra: "Gira cada estatua hacia el este. Pero cuidado: cada estatua arrastra a su vecina."
+103¦Scolpito nella pietra: "Gira ogni statua verso sud. Attenzione: ogni statua trascina con sé la sua vicina."¦Grabado en la piedra: "Gira cada estatua hacia el sur. Pero cuidado: cada estatua arrastra a su vecina."
+104¦Scolpito nella pietra: "Gira ogni statua verso ovest. Attenzione: ogni statua trascina con sé la sua vicina."¦Grabado en la piedra: "Gira cada estatua hacia el oeste. Pero cuidado: cada estatua arrastra a su vecina."
+105¦Scolpito nella pietra: "Il numero si nasconde dietro il libro subito a destra del libro rosso."¦Grabado en la piedra: "El número se esconde tras el libro justo a la derecha del libro rojo."
+106¦Scolpito nella pietra: "Il numero si nasconde dietro il libro subito a destra del libro blu."¦Grabado en la piedra: "El número se esconde tras el libro justo a la derecha del libro azul."
+107¦Scolpito nella pietra: "Il numero si nasconde dietro il libro subito a destra del libro verde."¦Grabado en la piedra: "El número se esconde tras el libro justo a la derecha del libro verde."
+108¦Scolpito nella pietra: "Il numero si nasconde dietro il libro subito a destra del libro viola."¦Grabado en la piedra: "El número se esconde tras el libro justo a la derecha del libro morado."
+109¦Scolpito nella pietra: "Il numero si nasconde dietro il libro subito a destra del libro giallo."¦Grabado en la piedra: "El número se esconde tras el libro justo a la derecha del libro amarillo."
+110¦Scolpito nella pietra: "Il numero si nasconde dietro il libro subito a destra del libro arancione."¦Grabado en la piedra: "El número se esconde tras el libro justo a la derecha del libro naranja."
+111¦Scolpito nella pietra: "Il numero si nasconde dietro il libro subito a destra del libro bianco."¦Grabado en la piedra: "El número se esconde tras el libro justo a la derecha del libro blanco."
+112¦Rombo! Dei massi rotolano per questa sala. Guarda le frecce sui muri.¦¡Retumba! Unas rocas ruedan por esta sala. Mira las flechas de las paredes.
+113¦Delle piastrelle con punte spuntano e rientrano in questa sala. Calcola bene i passi.¦En esta sala salen y se esconden baldosas con pinchos. Calcula bien tus pasos.
+114¦Attenzione! Ci sono buche nel pavimento.¦¡Cuidado! Hay hoyos en el suelo.
+115¦Scolpito nella pietra: "Accendi ogni lanterna prima che la prima si spenga."¦Grabado en la piedra: "Enciende cada linterna antes de que se apague la primera."
+116¦Scolpito nella pietra: "Suona le campane in quest'ordine, contando da sinistra: ¦Grabado en la piedra: "Toca las campanas en este orden, contando desde la izquierda: 
+117¦Scolpito nella pietra: "La gemma dorme tra la ¦Grabado en la piedra: "La gema duerme entre la 
+118¦ pila e la ¦ pila y la 
+119¦ pila."¦ pila."
+120¦Scolpito nella pietra: "Imposta il quadrante sul numero di stelle dorate sul muro."¦Grabado en la piedra: "Pon el dial en el número de estrellas doradas de la pared."
+199¦Cinque lampade sono dipinte sul muro. Premere una pietra la inverte insieme alle due vicine. Rifai il disegno.¦Cinco lámparas están pintadas en la pared. Pisar una piedra la cambia a ella y a sus dos vecinas. Iguala el dibujo.
+202¦La sabbia cede! Scivoli indietro fino alla porta.¦¡La arena cede! Resbalas hasta la puerta.
+209¦L'ultima lanterna si accende con un guizzo.¦La última linterna se enciende de golpe.
+255¦Scivoli in una buca e risali alla porta. Nessun danno.¦Resbalas a un hoyo y sales por la puerta. No pasa nada.
+260¦Whump! Un masso ti spinge indietro fino alla porta. Nessun danno.¦¡Zas! Una roca te empuja hasta la puerta. No pasa nada.
+261¦Ahi! Le punte ti pungono. Salti indietro fino alla porta.¦¡Ay! Los pinchos te pinchan. Saltas de vuelta a la puerta.
+262¦Le lanterne si spengono. Nessun problema, riaccendile, ma più in fretta!¦Las linternas se apagan. No pasa nada, vuelve a encenderlas, ¡pero más rápido!
