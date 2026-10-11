@@ -11,12 +11,12 @@ This is a kid's game project (Leo's). It is a single static `index.html`. Vercel
 
 ## The DEPLOY command
 
-When Leo (or anyone) says **DEPLOY** (any capitalisation), deploy **only the game in this repo**. Never touch, commit, or push any other project or repo, even if one is open in the session. Do exactly this:
+When Leo (or anyone) says **DEPLOY** (any capitalisation), deploy **this game and the Leo's Games menu site** (the `leos-games` repo, which Vercel serves as the one URL where Leo picks a game). Touch only these two repos. Never touch, commit, or push any other project or repo, even if one is open in the session. Do exactly this:
 
-1. Run `git status`. If there is nothing to commit and nothing unpushed, say "Nothing new to deploy" and stop.
-2. Quick safety check: make sure `index.html` exists and its script parses (open it headlessly or run `node --check` on the extracted script). If it is broken, do NOT push. Tell Leo in one friendly sentence what is wrong and offer to fix it.
-3. `git add index.html README.md`, then commit with a short plain message describing what changed.
-4. `git push origin main`. If rejected, fetch, rebase onto `origin/main`, and push again. Never force-push.
-5. Reply in one or two short, upbeat sentences: it is pushed to GitHub, and Vercel will have it live in about a minute at the project's main Vercel address.
+1. Run `git status` in this game repo. Also check whether the menu copy is behind: compare `index.html` with `/home/claude/games-hub/temple-escape/index.html` (if `/home/claude/games-hub` is missing, clone `https://github.com/cristiancarnevale/leos-games.git` there). If there is nothing to commit, nothing unpushed, and the menu copy is identical, say "Nothing new to deploy" and stop.
+2. Quick safety check: make sure `index.html` exists and its script parses (open it headlessly or run `node --check` on the extracted script). If it is broken, do NOT push anything. Tell Leo in one friendly sentence what is wrong and offer to fix it.
+3. In this game repo: `git add index.html README.md` (plus `tools/` if it changed and exists), commit with a short plain message describing what changed, then `git push origin main`. If rejected, fetch, rebase onto `origin/main`, and push again. Never force-push.
+4. In the menu repo (`/home/claude/games-hub`): `git pull --rebase origin main`, copy this game's `index.html` to `temple-escape/index.html`, and if this game has no entry yet in the `GAMES` list in the menu `index.html`, add one that matches the existing entries. Then `git add -A`, commit with the same short message (for example "Update temple-escape in the menu site"), and `git push origin main` (fetch, rebase and push again if rejected; never force-push).
+5. Reply in one or two short, upbeat sentences: the game and the menu are pushed to GitHub, and Vercel will have it live in about a minute at the menu's main Vercel address (not the long per-deploy address, which never changes).
 
 Keep the reply simple enough for a kid. Do not paste git output.
