@@ -1,44 +1,17 @@
-137¦Grandi onde risalgono la spiaggia. Guarda le frecce di schiuma ai bordi.¦Grandes olas suben por la playa. Mira las flechas de espuma en los bordes.
-138¦In questa stanza i ricci di mare spuntano e rientrano. Scegli bene il momento.¦En esta sala los erizos de mar salen y se esconden. Elige bien el momento.
-139¦Attenzione! Nella sabbia ci sono pozze profonde.¦¡Cuidado! En la arena hay pozas profundas escondidas.
-149¦Hai trovato un paio di remi!¦¡Has encontrado un par de remos!
-150¦Hai trovato una grande vela bianca!¦¡Has encontrado una gran vela blanca!
-151¦Hai trovato una bussola di ottone!¦¡Has encontrado una brújula de latón!
-160¦La grotta della cascata¦La cueva de la cascada
-161¦Le rovine delle scimmie¦Las ruinas de los monos
-162¦Il giardino sommerso¦El jardín hundido
-163¦Un cartello rotto dice: "A ovest c'è la barriera. A est c'è la baia dei pirati. A sud c'è il faro. A nord c'è ciò che i vecchi pescatori hanno nascosto."¦Un cartel roto dice: "Al oeste está el arrecife. Al este está la cala pirata. Al sur está el faro. Al norte está lo que los viejos pescadores escondieron."
-164¦Un cartello sbiadito dice: "Vecchio molo. Per una barca servono remi e una vela."¦Un cartel descolorido dice: "Muelle viejo. Un bote necesita remos y una vela."
-165¦La spiaggia dello schianto¦La playa del choque
-166¦La barriera corallina¦El arrecife de coral
-167¦La baia dei pirati¦La cala de los piratas
-168¦Il faro¦El faro
-169¦Il labirinto di mangrovie¦El laberinto de manglares
-170¦Il vecchio molo¦El muelle viejo
-182¦Vai subito alla Parte Quattro¦Ir directo a la Parte Cuatro
-239¦Si apre un pannello segreto nel muro del faro. Dentro c'è una bussola di ottone!¦Se abre un panel secreto en la pared del faro. ¡Dentro hay una brújula de latón!
-251¦Una porta nascosta scivola via nel muro. Dentro c'è un'elica!¦Una puerta oculta se desliza en la pared. ¡Dentro hay una hélice!
-252¦Un portello segreto si apre. Dentro c'è una grande vela bianca!¦Una compuerta secreta se abre. ¡Dentro hay una gran vela blanca!
-253¦Il vecchio aereo è un relitto fumante. Non volerà mai più. Ti serve una barca!¦El viejo avión es un naufragio humeante. Nunca volverá a volar. ¡Necesitas un bote!
-254¦La bussola gira e punta a nord. Le grosse radici si aprono!¦La brújula gira y apunta al norte. ¡Las gruesas raíces se apartan!
-255¦Un groviglio di radici di mangrovia blocca la strada a nord. Non si muovono.¦Un enredo de raíces de manglar bloquea el camino al norte. No se mueven.
-256¦Ora il baule è vuoto.¦Ahora el cofre está vacío.
-257¦Apri il vecchio baule. Dentro c'è un mango d'oro luccicante! Hai guadagnato 20 punti bonus.¦Abres el viejo cofre. ¡Dentro hay un mango dorado brillante! Has ganado 20 puntos extra.
-258¦Spingi la barca fuori dal molo. La vela si gonfia di vento!¦Empujas el bote fuera del muelle. ¡La vela se llena de viento!
-259¦La barca non ha remi. Cerca vicino alla barriera.¦El bote no tiene remos. Busca cerca del arrecife.
-260¦L'albero non ha la vela. Forse i pirati ne hanno nascosta una.¦El mástil no tiene vela. Quizá los piratas escondieron una.
-315¦Il motore ruggisce e il vecchio aereo sale alto sopra la giungla verde. Poi tossisce e singhiozza. Fumo! Plani giù e atterri di botto su una spiaggia sabbiosa. Non ti sei fatto male, ma l'aereo non vola più.¦El motor ruge y el viejo avión sube alto sobre la selva verde. Pero entonces tose y se atasca. ¡Humo! Planeas hacia abajo y aterrizas de golpe en una playa de arena. No te has hecho daño, pero el avión ya no vuela más.
-316¦Continua con la Parte Quattro¦Continuar con la Parte Cuatro
-318¦CRASH! Rotoli fuori dall'aereo rotto su una spiaggia sabbiosa. Non ti sei fatto male, ma l'aereo non volerà mai più.¦¡CRASH! Sales rodando del avión roto a una playa de arena. No te has hecho daño, pero el avión nunca volverá a volar.
-319¦Forse puoi trovare una barca per scappare da quest'isola. Guardati intorno!¦Quizá puedas encontrar un bote para escapar de esta isla. ¡Mira a tu alrededor!
-320¦Parte quattro¦Parte cuatro
-321¦Parti navigando!¦¡Te alejas navegando!
-322¦Spingi la barca nel mare azzurro e luminoso. Il vento gonfia la vela e l'isola diventa sempre più piccola. Da qualche parte più avanti ti aspetta casa. Questa volta sei scappato davvero!¦Empujas el bote hacia el mar azul y brillante. El viento llena la vela y la isla se hace cada vez más pequeña. En algún lugar más adelante te espera el hogar. ¡Esta vez has escapado de verdad!
-323¦Gioca di nuovo la Parte Quattro¦Jugar otra vez la Parte Cuatro
-325¦Splash! Cadi in una pozza profonda e esci vicino alla porta. Nessun danno.¦¡Splash! Caes en una poza profunda y sales junto a la puerta. No pasa nada.
-333¦Splash! Una grossa onda ti spinge indietro verso la porta. Nessun danno.¦¡Splash! Una gran ola te empuja hacia la puerta. No pasa nada.
-334¦Whump! Un tronco ti spinge indietro verso la porta. Nessun danno.¦¡Whump! Un tronco te empuja hacia la puerta. No pasa nada.
-336¦Ahi! Un riccio di mare ti punge. Torni indietro verso la porta.¦¡Ay! Un erizo de mar te pincha. Vuelves saltando a la puerta.
-372¦Remi¦Remos
-373¦Vela¦Vela
-374¦Bussola¦Brújula
+140¦Attenzione! Nella sabbia si nascondono le sabbie mobili.¦¡Cuidado! Hay arenas movedizas escondidas en la arena.
+141¦Un tunnel segreto! Fai attenzione dove metti i piedi al buio.¦¡Un túnel secreto! Cuidado con dónde pisas en la oscuridad.
+142¦Il tesoro dei pirati! L'oro brilla dappertutto.¦¡El tesoro de los piratas! El oro brilla por todas partes.
+155¦Hai trovato un timone per la barca!¦¡Has encontrado un timón para el barco!
+175¦La Secca¦El Banco de Arena
+176¦Il Relitto¦El Naufragio
+177¦Il Tunnel Segreto¦El Túnel Secreto
+178¦Il Tesoro dei Pirati¦El Tesoro de los Piratas
+261¦La pietra del teschio è già premuta.¦La piedra de la calavera ya está pulsada.
+262¦Su questa roccia è scolpito un teschio. Lo premi. Clic! Si apre una scala segreta nel pavimento.¦Hay una calavera tallada en esta roca. La pulsas. ¡Clic! Se abre una escalera secreta en el suelo.
+267¦Apri l'enorme baule del tesoro. È pieno di monete d'oro! Hai guadagnato 50 punti bonus.¦Abres el enorme cofre del tesoro. ¡Está lleno de monedas de oro! Has ganado 50 puntos extra.
+272¦La barca non ha il timone. Forse è nel vecchio relitto.¦El barco no tiene timón. Quizás esté en el viejo naufragio.
+334¦Spingi la barca nel mare azzurro. Il vento gonfia la vela e l'isola diventa sempre più piccola. Ma cos'è quella nuvola scura all'orizzonte? Continua...¦Empujas el barco hacia el mar azul. El viento llena la vela y la isla se hace cada vez más pequeña. Pero ¿qué es esa nube oscura en el horizonte? Continuará...
+337¦Ohi! La sabbia ti risucchia i piedi. Ti liberi e risali alla porta. Nessun problema.¦¡Ay! La arena te traga los pies. Te sueltas y sales por la puerta. No pasa nada.
+342¦Scendi la scala segreta in un tunnel buio.¦Bajas por la escalera secreta a un túnel oscuro.
+347¦Bonk! Un barile ti rimanda alla porta. Nessun problema.¦¡Bonk! Un barril te empuja de vuelta a la puerta. No pasa nada.
+390¦Timone¦Timón
