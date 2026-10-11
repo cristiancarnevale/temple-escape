@@ -1,35 +1,10 @@
-141¦Fulmini! I cerchi gialli mostrano dove cadrà il fulmine. Spostati prima che lampeggi.¦¡Rayos! Los círculos amarillos muestran dónde caerá el rayo. Apártate antes de que destelle.
-157¦Hai trovato un mucchio di legna secca portata dal mare!¦¡Has encontrado un montón de leña seca del mar!
-158¦Hai trovato una selce. Fa scintille!¦¡Has encontrado un pedernal. ¡Hace chispas!
-159¦Olio per lampada¦Aceite de lámpara
-160¦Hai trovato una latta di olio per lampada!¦¡Has encontrado una lata de aceite de lámpara!
-184¦Un cartello fradicio dice: "A ovest c'è la Spiaggia delle Ossa di Balena. A est la Grotta dei Fulmini. A sud la Torre della Tempesta. A nord il sentiero sulla scogliera fino in cima all'isola. Accendi lassù un fuoco di segnalazione!"¦Un cartel empapado dice: "Al oeste está la Playa de los Huesos de Ballena. Al este, la Cueva de los Rayos. Al sur, la Torre de la Tormenta. Al norte, el sendero del acantilado hasta la cima de la isla. ¡Enciende allí una hoguera de señales!"
-185¦Graffiato sulla parete: "Il tuono ricorda. Calpesta le piastre colorate nell'ordine mostrato."¦Rayado en la pared: "El trueno recuerda. Pisa las placas de colores en el orden que se muestra."
-186¦Una pila di vecchie pietre, pronta per un fuoco. Servono legna, selce e olio per lampada.¦Un montón de piedras viejas, listo para una hoguera. Hacen falta leña, pedernal y aceite de lámpara.
-187¦La Riva del Naufragio¦La Orilla del Naufragio
-188¦La Spiaggia delle Ossa di Balena¦La Playa de los Huesos de Ballena
-189¦Le Pozze di Marea¦Las Pozas de Marea
-190¦La Grotta dei Fulmini¦La Cueva de los Rayos
-191¦La Torre della Tempesta¦La Torre de la Tormenta
-192¦Il Sentiero della Scogliera¦El Sendero del Acantilado
-193¦Il Faro di Segnalazione¦La Almenara
-206¦Vai direttamente alla Parte Cinque¦Ir directamente a la Parte Cinco
-263¦Nella parete della torre si apre un cassetto nascosto. Dentro c'è una latta di olio per lampada!¦Se abre un cajón oculto en la pared de la torre. ¡Dentro hay una lata de aceite de lámpara!
-277¦Una pietra scorre via nella parete della grotta. Dentro c'è una selce!¦Una piedra se desliza en la pared de la cueva. ¡Dentro hay un pedernal!
-291¦La tua povera barca è ridotta in pezzi. Ti serve un altro modo per tornare a casa. Forse passerà una nave!¦Tu pobre barco está hecho pedazos. Necesitas otra forma de volver a casa. ¡Quizás pase un barco!
-292¦Impili la legna, versi l'olio e batti la selce. WHOOSH! Un enorme fuoco divampa!¦Apilas la leña, viertes el aceite y golpeas el pedernal. ¡WHOOSH! ¡Se levanta una enorme hoguera!
-293¦Lontano, sul mare buio, una nave vira verso la tua luce!¦¡Lejos, en el mar oscuro, un barco gira hacia tu luz!
-294¦Al falò serve legna secca per bruciare.¦La almenara necesita leña seca para arder.
-295¦Ti serve una selce per fare una scintilla.¦Necesitas un pedernal para hacer una chispa.
-296¦Ti serve olio per lampada per far crescere il fuoco.¦Necesitas aceite de lámpara para hacer grande el fuego.
-358¦Spingi la barca nel mare azzurro. Il vento gonfia la vela e l'isola diventa sempre più piccola. Ma cos'è quella nuvola scura all'orizzonte? Si avvicina in fretta!¦Empujas el barco hacia el mar azul. El viento llena la vela y la isla se hace cada vez más pequeña. Pero ¿qué es esa nube oscura en el horizonte? ¡Se acerca muy rápido!
-359¦Continua con la Parte Cinque¦Continuar con la Parte Cinco
-361¦BOOM! Una tempesta gigante manda in pezzi la tua barca. Vieni sbattuto su un'isola rocciosa, bagnato ma salvo.¦¡BUM! Una tormenta gigante destroza tu barco. Llegas a una isla rocosa, empapado pero a salvo.
-362¦Accendi un grande fuoco di segnalazione in cima all'isola, così una nave potrà trovarti. Ti servono legna, selce e olio per lampada.¦Enciende una gran hoguera de señales en lo alto de la isla para que un barco pueda encontrarte. Necesitas leña, pedernal y aceite de lámpara.
-363¦Parte cinque¦Parte cinco
-364¦Arriva una nave!¦¡Llega un barco!
-365¦Il grande fuoco illumina il cielo in tempesta. Un corno di nave risponde dal mare! Una nave di soccorso arriva e i gentili marinai ti tirano a bordo. Ricevi una coperta calda e una cioccolata calda. Presto vedi la tua casa in lontananza. Ce l'hai fatta a tornare fin qui. Fine!¦El gran fuego ilumina el cielo de tormenta. ¡Un cuerno de barco responde desde las olas! Un barco de rescate llega y los amables marineros te suben a bordo. Te dan una manta caliente y un chocolate caliente. Pronto ves tu casa a lo lejos. Lo has conseguido, has vuelto hasta aquí. ¡Fin!
-366¦Gioca di nuovo la Parte Cinque¦Juega otra vez la Parte Cinco
-382¦Zap! Il fulmine ti fa il solletico ai piedi. Torni alla porta. Nessun problema.¦¡Zap! El rayo te hace cosquillas en los pies. Vuelves a la puerta. No pasa nada.
-423¦Legna¦Leña
-424¦Selce¦Pedernal
+161¦Hai trovato una bandiera rossa per i segnali!¦¡Has encontrado una bandera roja de señales!
+187¦Una pila di vecchie pietre, pronta per un fuoco. Servono legna, selce, olio per lampada e una bandiera.¦Un montón de piedras viejas, listo para una hoguera. Hacen falta leña, pedernal, aceite de lámpara y una bandera.
+188¦Graffiato nella roccia: "Quasi arrivato! Quassù i fulmini sono arrabbiati."¦Rayado en la roca: "¡Casi llegas! Aquí arriba los rayos están furiosos."
+196¦Il Ponte Rotto¦El Puente Roto
+197¦Gli Scogli delle Foche¦Las Rocas de las Focas
+198¦Il Nido dell'Aquila¦El Nido del Águila
+290¦Apri il baule coperto di denti di cane. È pieno di perle lucenti! Hai guadagnato 30 punti bonus.¦Abres el cofre cubierto de percebes. ¡Está lleno de perlas brillantes! Has ganado 30 puntos extra.
+303¦Ti serve una bandiera da sventolare, così la nave capisce che è un segnale.¦Necesitas una bandera para agitar, así el barco sabrá que es una señal.
+369¦Accendi un grande fuoco di segnalazione in cima all'isola, così una nave potrà trovarti. Ti servono legna, selce, olio per lampada e una bandiera rossa.¦Enciende una gran hoguera de señales en lo alto de la isla para que un barco pueda encontrarte. Necesitas leña, pedernal, aceite de lámpara y una bandera roja.
+432¦Bandiera¦Bandera
